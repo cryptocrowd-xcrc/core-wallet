@@ -145,6 +145,12 @@ HEADERS += src/activemasternode.h \
            src/crypto/sph_cubehash.h \
            src/crypto/sph_echo.h \
            src/crypto/sph_groestl.h \
+	   src/crypto/sph_haval.h \
+	   src/crypto/sph_sha2.h \
+	   src/crypto/sph_whirlpool.h \
+	   src/crypto/sph_shabal.h \
+	   src/crypto/sph_fugue.h \
+	   src/crypto/sph_hamsi.h \
            src/crypto/sph_jh.h \
            src/crypto/sph_keccak.h \
            src/crypto/sph_luffa.h \
