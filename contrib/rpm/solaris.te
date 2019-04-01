@@ -1,0 +1,81 @@
+policy_module(solaris, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type solaris_t;
+type solaris_exec_t;
+init_daemon_domain(solaris_t, solaris_exec_t)
+
+permissive solaris_t;
+
+type solaris_initrc_exec_t;
+init_script_file(solaris_initrc_exec_t)
+
+type solaris_conf_t;
+files_type(solaris_conf_t)
+
+type solaris_var_lib_t;
+files_type(solaris_var_lib_t)
+
+type solaris_var_run_t;
+files_type(solaris_var_run_t)
+
+type solaris_port_t;
+corenet_port(solaris_port_t)
+
+########################################
+#
+# solaris local policy
+#
+allow solaris_t self:process { fork };
+
+allow solaris_t self:fifo_file rw_fifo_file_perms;
+allow solaris_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(solaris_t, solaris_conf_t, solaris_conf_t)
+manage_files_pattern(solaris_t, solaris_conf_t, solaris_conf_t)
+
+manage_dirs_pattern(solaris_t, solaris_var_lib_t, solaris_var_lib_t)
+manage_files_pattern(solaris_t, solaris_var_lib_t, solaris_var_lib_t)
+files_var_lib_filetrans(solaris_t, solaris_var_lib_t, { dir file })
+
+manage_dirs_pattern(solaris_t, solaris_var_run_t, solaris_var_run_t)
+manage_files_pattern(solaris_t, solaris_var_run_t, solaris_var_run_t)
+
+sysnet_dns_name_resolve(solaris_t)
+corenet_all_recvfrom_unlabeled(solaris_t)
+
+allow solaris_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(solaris_t)
+corenet_tcp_sendrecv_generic_node(solaris_t)
+corenet_tcp_sendrecv_all_ports(solaris_t)
+corenet_tcp_bind_generic_node(solaris_t)
+
+gen_require(`
+    type solaris_port_t;
+')
+allow solaris_t solaris_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type solaris_port_t;
+')
+allow solaris_t solaris_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(solaris_t)
+
+files_read_etc_files(solaris_t)
+
+miscfiles_read_localization(solaris_t)
+
+sysnet_dns_name_resolve(solaris_t)
+
+allow solaris_t solaris_exec_t:file execute_no_trans;
+allow solaris_t self:process setsched;
+corecmd_exec_ls(solaris_t)
+corenet_tcp_connect_http_port(solaris_t)
+dev_read_urand(solaris_t)
+fs_getattr_xattr_fs(solaris_t)
+kernel_read_system_state(solaris_t)

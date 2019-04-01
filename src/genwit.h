@@ -1,9 +1,9 @@
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2018 The Solaris developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_GENWIT_H
-#define PIVX_GENWIT_H
+#ifndef Solaris_GENWIT_H
+#define Solaris_GENWIT_H
 
 
 #include <iostream>
@@ -58,4 +58,4 @@ private:
 };
 
 
-#endif //PIVX_GENWIT_H
+#endif //Solaris_GENWIT_H

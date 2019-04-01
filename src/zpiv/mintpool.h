@@ -1,14 +1,14 @@
-// Copyright (c) 2017-2018 The PIVX developers
+// Copyright (c) 2017-2018 The Solaris developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_MINTPOOL_H
-#define PIVX_MINTPOOL_H
+#ifndef Solaris_MINTPOOL_H
+#define Solaris_MINTPOOL_H
 
 #include <map>
 #include <list>
 
-#include "zpiv/zerocoin.h"
+#include "zxlr/zerocoin.h"
 #include "libzerocoin/bignum.h"
 #include "uint256.h"
 
@@ -50,4 +50,4 @@ public:
 };
 
 
-#endif //PIVX_MINTPOOL_H
+#endif //Solaris_MINTPOOL_H

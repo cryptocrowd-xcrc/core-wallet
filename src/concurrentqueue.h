@@ -1,10 +1,10 @@
 //
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2018 The Solaris developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_CONCURRENTQUEUE_H
-#define PIVX_CONCURRENTQUEUE_H
+#ifndef Solaris_CONCURRENTQUEUE_H
+#define Solaris_CONCURRENTQUEUE_H
 
 
 #include <mutex>
@@ -48,4 +48,4 @@ public:
     }
 };
 
-#endif //PIVX_CONCURRENTQUEUE_H
+#endif //Solaris_CONCURRENTQUEUE_H

@@ -1,11 +1,11 @@
 Sample configuration files for:
 ```
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
-macOS:    org.pivx.pivxd.plist
+SystemD: solarisd.service
+Upstart: solarisd.conf
+OpenRC:  solarisd.openrc
+         solarisd.openrcconf
+CentOS:  solarisd.init
+macOS:    org.solaris.solarisd.plist
 ```
 have been made available to assist packagers in creating node packages here.
 
