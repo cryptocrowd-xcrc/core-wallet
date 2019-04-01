@@ -1,12 +1,11 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers
+// Copyright (c) 2015-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/solaris-config.h"
+#include "config/pivx-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -19,6 +18,7 @@
 #include "main.h"
 #include "net.h"
 #include "txdb.h" // for -dbcache defaults
+#include "util.h"
 
 #ifdef ENABLE_WALLET
 #include "masternodeconfig.h"
@@ -62,28 +62,45 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::XLR);
+        settings.setValue("nDisplayUnit", BitcoinUnits::PIV);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
         settings.setValue("strThirdPartyTxUrls", "");
     strThirdPartyTxUrls = settings.value("strThirdPartyTxUrls", "").toString();
 
+    if (!settings.contains("fHideZeroBalances"))
+        settings.setValue("fHideZeroBalances", true);
+    fHideZeroBalances = settings.value("fHideZeroBalances").toBool();
+
+    if (!settings.contains("fHideOrphans"))
+        settings.setValue("fHideOrphans", false);
+    fHideOrphans = settings.value("fHideOrphans").toBool();
+
     if (!settings.contains("fCoinControlFeatures"))
         settings.setValue("fCoinControlFeatures", false);
     fCoinControlFeatures = settings.value("fCoinControlFeatures", false).toBool();
 
-    if (!settings.contains("nPreferredDenom"))
-        settings.setValue("nPreferredDenom", 0);
-    nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
+    if (!settings.contains("fZeromintEnable"))
+        settings.setValue("fZeromintEnable", true);
+    fEnableZeromint = settings.value("fZeromintEnable").toBool();
+
+    if (!settings.contains("fEnableAutoConvert"))
+        settings.setValue("fEnableAutoConvert", true);
+    fEnableAutoConvert = settings.value("fEnableAutoConvert").toBool();
+
     if (!settings.contains("nZeromintPercentage"))
         settings.setValue("nZeromintPercentage", 10);
     nZeromintPercentage = settings.value("nZeromintPercentage").toLongLong();
 
-    if (!settings.contains("nAnonymizeSolarisAmount"))
-        settings.setValue("nAnonymizeSolarisAmount", 1000);
+    if (!settings.contains("nPreferredDenom"))
+        settings.setValue("nPreferredDenom", 0);
+    nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
 
-    nAnonymizeSolarisAmount = settings.value("nAnonymizeSolarisAmount").toLongLong();
+    if (!settings.contains("nAnonymizePivxAmount"))
+        settings.setValue("nAnonymizePivxAmount", 1000);
+
+    nAnonymizePivxAmount = settings.value("nAnonymizePivxAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -114,6 +131,9 @@ void OptionsModel::Init()
     if (!SoftSetBoolArg("-spendzeroconfchange", settings.value("bSpendZeroConfChange").toBool()))
         addOverriddenOption("-spendzeroconfchange");
 #endif
+    if (!settings.contains("nStakeSplitThreshold"))
+        settings.setValue("nStakeSplitThreshold", 1);
+
 
     // Network
     if (!settings.contains("fUseUPnP"))
@@ -148,12 +168,16 @@ void OptionsModel::Init()
     if (!SoftSetArg("-lang", settings.value("language").toString().toStdString()))
         addOverriddenOption("-lang");
 
+    if (settings.contains("fZeromintEnable"))
+        SoftSetBoolArg("-enablezeromint", settings.value("fZeromintEnable").toBool());
+    if (settings.contains("fEnableAutoConvert"))
+        SoftSetBoolArg("-enableautoconvertaddress", settings.value("fEnableAutoConvert").toBool());
     if (settings.contains("nZeromintPercentage"))
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeSolarisAmount"))
-        SoftSetArg("-anonymizesolarisamount", settings.value("nAnonymizeSolarisAmount").toString().toStdString());
+    if (settings.contains("nAnonymizePivxAmount"))
+        SoftSetArg("-anonymizepivxamount", settings.value("nAnonymizePivxAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -164,7 +188,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in solaris.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in pivx.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -215,7 +239,12 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
         case ShowMasternodesTab:
             return settings.value("fShowMasternodesTab");
 #endif
+        case StakeSplitThreshold:
+            if (pwalletMain)
+                return QVariant((int)pwalletMain->nStakeSplitThreshold);
+            return settings.value("nStakeSplitThreshold");
         case DisplayUnit:
+
             return nDisplayUnit;
         case ThirdPartyTxUrls:
             return strThirdPartyTxUrls;
@@ -231,12 +260,20 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nDatabaseCache");
         case ThreadsScriptVerif:
             return settings.value("nThreadsScriptVerif");
+        case HideZeroBalances:
+            return settings.value("fHideZeroBalances");
+        case HideOrphans:
+            return settings.value("fHideOrphans");
+        case ZeromintEnable:
+            return QVariant(fEnableZeromint);
+        case ZeromintAddresses:
+            return QVariant(fEnableAutoConvert);
         case ZeromintPercentage:
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeSolarisAmount:
-            return QVariant(nAnonymizeSolarisAmount);
+        case AnonymizePivxAmount:
+            return QVariant(nAnonymizePivxAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -312,6 +349,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             }
             break;
 #endif
+        case StakeSplitThreshold:
+            settings.setValue("nStakeSplitThreshold", value.toInt());
+            setStakeSplitThreshold(value.toInt());
+            break;
         case DisplayUnit:
             setDisplayUnit(value);
             break;
@@ -340,6 +381,15 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
                 setRestartRequired(true);
             }
             break;
+        case ZeromintEnable:
+            fEnableZeromint = value.toBool();
+            settings.setValue("fZeromintEnable", fEnableZeromint);
+            emit zeromintEnableChanged(fEnableZeromint);
+            break;
+        case ZeromintAddresses:
+            fEnableAutoConvert = value.toBool();
+            settings.setValue("fEnableAutoConvert", fEnableAutoConvert);
+            emit zeromintAddressesChanged(fEnableAutoConvert);
         case ZeromintPercentage:
             nZeromintPercentage = value.toInt();
             settings.setValue("nZeromintPercentage", nZeromintPercentage);
@@ -350,11 +400,20 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nPreferredDenom", nPreferredDenom);
             emit preferredDenomChanged(nPreferredDenom);
             break;
-
-        case AnonymizeSolarisAmount:
-            nAnonymizeSolarisAmount = value.toInt();
-            settings.setValue("nAnonymizeSolarisAmount", nAnonymizeSolarisAmount);
-            emit anonymizeSolarisAmountChanged(nAnonymizeSolarisAmount);
+        case HideZeroBalances:
+            fHideZeroBalances = value.toBool();
+            settings.setValue("fHideZeroBalances", fHideZeroBalances);
+            emit hideZeroBalancesChanged(fHideZeroBalances);
+            break;
+        case HideOrphans:
+            fHideOrphans = value.toBool();
+            settings.setValue("fHideOrphans", fHideOrphans);
+            emit hideOrphansChanged(fHideOrphans);
+            break;
+        case AnonymizePivxAmount:
+            nAnonymizePivxAmount = value.toInt();
+            settings.setValue("nAnonymizePivxAmount", nAnonymizePivxAmount);
+            emit anonymizePivxAmountChanged(nAnonymizePivxAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();
@@ -399,6 +458,25 @@ void OptionsModel::setDisplayUnit(const QVariant& value)
         emit displayUnitChanged(nDisplayUnit);
     }
 }
+
+/* Update StakeSplitThreshold's value in wallet */
+void OptionsModel::setStakeSplitThreshold(int value)
+{
+    // XXX: maybe it's worth to wrap related stuff with WALLET_ENABLE ?
+    uint64_t nStakeSplitThreshold;
+
+    nStakeSplitThreshold = value;
+    if (pwalletMain && pwalletMain->nStakeSplitThreshold != nStakeSplitThreshold) {
+        CWalletDB walletdb(pwalletMain->strWalletFile);
+        LOCK(pwalletMain->cs_wallet);
+        {
+            pwalletMain->nStakeSplitThreshold = nStakeSplitThreshold;
+            if (pwalletMain->fFileBacked)
+                walletdb.WriteStakeSplitThreshold(nStakeSplitThreshold);
+        }
+    }
+}
+
 
 bool OptionsModel::getProxySettings(QNetworkProxy& proxy) const
 {

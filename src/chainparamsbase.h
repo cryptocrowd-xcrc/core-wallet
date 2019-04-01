@@ -1,4 +1,5 @@
 // Copyright (c) 2014 The Bitcoin developers
+// Copyright (c) 2017 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,8 +10,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between solaris-cli and solarisd)
- * of a given instance of the Solaris system.
+ * CBaseChainParams defines the base parameters (shared between pivx-cli and pivxd)
+ * of a given instance of the Pivx system.
  */
 class CBaseChainParams
 {
