@@ -1703,11 +1703,11 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Pasirinkite privatumo lygmenį.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 XLR</source>
         <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 XLR</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 XLR</source>
         <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 XLR</translation>
     </message>
     <message>
@@ -1715,19 +1715,19 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Naudokite 16 atskirų masternod'ų</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 XLR, kad anonimizuotų 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 1000 XLR</source>
+        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 XLR, kad anonimizuotų 1000 XLR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 XLR, kad anonimizuotų 10000 XLR</translation>
+        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 1000 XLR</source>
+        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 XLR, kad anonimizuotų 1000 XLR</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tai yra lėčiausias ir saugiausias variantas. Maksimalus anonimiškumas kainuos.</translation>
     </message>
     <message>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
+        <source>0.1 XLR per 1000 XLR you anonymize.</source>
         <translation>0.1 XLR kas 1000 XLR kuriuos anonimizuosite.</translation>
     </message>
     <message>

@@ -1137,24 +1137,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 XLR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 XLR</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 1000 XLR</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 XLR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 XLR</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 1000 XLR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 XLR per anonimitzar 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 1000 XLR</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 XLR per anonimitzar 1000 XLR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 XLR per anonimitzar 10000 XLR</translation>
+        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 1000 XLR</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 XLR per anonimitzar 1000 XLR</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>

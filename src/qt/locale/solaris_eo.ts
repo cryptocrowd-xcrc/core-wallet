@@ -1581,12 +1581,12 @@ Muktisendi: %1</translation>
         <translation>Bonvolu elekti privata nivelo.</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Tion opcion estas la plej rapida kaji kostos ~0.025 XLR por anonimigi 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 1000 XLR</source>
+        <translation>Tion opcion estas la plej rapida kaji kostos ~0.025 XLR por anonimigi 1000 XLR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Tion opcion estas moderebla rapide kaj kostos ĉirkaŭ 0.05 XLR por anonimigi 10000 XLR</translation>
+        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 1000 XLR</source>
+        <translation>Tion opcion estas moderebla rapide kaj kostos ĉirkaŭ 0.05 XLR por anonimigi 1000 XLR</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>

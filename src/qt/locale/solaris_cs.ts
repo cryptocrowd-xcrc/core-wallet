@@ -1445,24 +1445,24 @@ MultiSend: %1</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 XLR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 XLR</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 1000 XLR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 XLR pro anonymizaci 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 1000 XLR</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 XLR pro anonymizaci 1000 XLR</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
-        <translation>0.1 XLR za 10000 XLR anonymizujete.</translation>
+        <source>0.1 XLR per 1000 XLR you anonymize.</source>
+        <translation>0.1 XLR za 1000 XLR anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>

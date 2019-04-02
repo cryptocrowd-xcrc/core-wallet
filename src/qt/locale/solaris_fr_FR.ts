@@ -1833,32 +1833,32 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 XLR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 XLR</source>
+        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 1000 XLR</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 XLR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 XLR</source>
+        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 1000 XLR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utiliser 16 masternodes différents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Cette option est la plus rapide, et coutera ~0.025 XLR pour anonymiser 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 1000 XLR</source>
+        <translation>Cette option est la plus rapide, et coutera ~0.025 XLR pour anonymiser 1000 XLR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Cette option est moyennement rapide, et coutera 0.05 XLR pour anonymiser 10000 XLR</translation>
+        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 1000 XLR</source>
+        <translation>Cette option est moyennement rapide, et coutera 0.05 XLR pour anonymiser 1000 XLR</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
     </message>
     <message>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
-        <translation>0.1 XLR par 10000 XLR vous anonymisez.</translation>
+        <source>0.1 XLR per 1000 XLR you anonymize.</source>
+        <translation>0.1 XLR par 1000 XLR vous anonymisez.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -5260,12 +5260,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Incapable de localiser suffisamment de fonds non-dénommés pour l'Obfuscation de cette transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLR.</source>
-        <translation>Incapable de localiser suffisamment de fonds non-dénommés pour l'Obfuscation de cette transaction qui ne sont pas égaux à 10000 XLR.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 1000 XLR.</source>
+        <translation>Incapable de localiser suffisamment de fonds non-dénommés pour l'Obfuscation de cette transaction qui ne sont pas égaux à 1000 XLR.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 XLR.</source>
-        <translation>Impossible de grouper assez de fonds pour cette transaction qui n'est pas égale à 10000 XLR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 XLR.</source>
+        <translation>Impossible de grouper assez de fonds pour cette transaction qui n'est pas égale à 1000 XLR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
