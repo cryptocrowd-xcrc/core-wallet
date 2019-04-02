@@ -125,10 +125,6 @@ public:
     int Block_Enforce_Invalid() const { return nBlockEnforceInvalidUTXO; }
     int Zerocoin_Block_V2_Start() const { return nBlockZerocoinV2; }
 
-    // fake serial attack
-    int Zerocoin_Block_EndFakeSerial() const { return nFakeSerialBlockheightEnd; }
-    CAmount GetSupplyBeforeFakeSerial() const { return nSupplyBeforeFakeSerial; }
-
     int Zerocoin_Block_Double_Accumulated() const { return nBlockDoubleAccumulated; }
     CAmount InvalidAmountFiltered() const { return nInvalidAmountFiltered; };
 
@@ -195,10 +191,6 @@ protected:
     int nBlockEnforceInvalidUTXO;
     int nBlockZerocoinV2;
     int nBlockDoubleAccumulated;
-
-    // fake serial attack
-    int nFakeSerialBlockheightEnd = 0;
-    CAmount nSupplyBeforeFakeSerial = 0;
 };
 
 /**

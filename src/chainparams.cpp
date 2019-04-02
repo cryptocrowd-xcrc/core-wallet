@@ -155,7 +155,7 @@ public:
         nZerocoinStartTime = 1523891665; // Monday, April 16, 2018 5:14:25 PM GMT+02:00 DST
         nZerocoinStartHeight = 259300;
 
-		nBlockZerocoinV2 = 749799;
+	    nBlockZerocoinV2 = 10000000;
 		
         const char* pszTimestamp = "Solaris 30-09-2017";
 
@@ -269,10 +269,6 @@ public:
         nZerocoinStartTime = 1633077761;
         nZerocoinStartHeight = 1000005;
 
-        // Fake Serial Attack
-        nFakeSerialBlockheightEnd = -1;
-        nSupplyBeforeFakeSerial = 0;
-
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
 
         genesis.nTime = 1538383362;
@@ -366,9 +362,6 @@ public:
         nBlockRecalculateAccumulators = 999999999; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 999999999; //First block that bad serials emerged
         nBlockLastGoodCheckpoint = 999999999; //Last valid accumulator checkpoint
-
-        // Fake Serial Attack
-        nFakeSerialBlockheightEnd = -1;
 
         //! Modify the regtest genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1454124731;
