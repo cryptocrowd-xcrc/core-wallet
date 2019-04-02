@@ -1512,7 +1512,7 @@ bool AppInit2()
                         RecalculateZXLRSpent();
                     }
                     // Recalculate from the zerocoin activation or from scratch.
-                    RecalculateXLRSupply(Params().Zerocoin_StartHeight() : 1);
+                    RecalculateXLRSupply(Params().Zerocoin_StartHeight());
                 }
 
                 // Force recalculation of accumulators.
