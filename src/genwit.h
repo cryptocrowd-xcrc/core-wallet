@@ -1,4 +1,5 @@
-// Copyright (c) 2015-2018 The Solaris developers
+// Copyright (c) 2015-2018 The Pivx developers
+// Copyright (c) 2017-2019 The Solaris developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
