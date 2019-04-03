@@ -933,6 +933,10 @@ min-width:400px;
 background-color:#2f3241;
 }
 
+#verticalLayout_Master {
+background-color:#2f3241;
+}
+
 /**************************** OVERVIEW SCREEN *******************************************/
 
 QWidget .QFrame#frame_Space { /* Space between Header and Content */

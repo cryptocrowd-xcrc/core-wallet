@@ -38,13 +38,13 @@
       <number>0</number>
      </property>
      <property name="leftMargin">
-      <number>0</number>
+      <number>9</number>
      </property>
      <property name="topMargin">
       <number>0</number>
      </property>
      <property name="rightMargin">
-      <number>0</number>
+      <number>9</number>
      </property>
      <property name="bottomMargin">
       <number>0</number>
@@ -885,7 +885,7 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>956</width>
+             <width>940</width>
              <height>138</height>
             </rect>
            </property>
