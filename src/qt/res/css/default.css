@@ -1310,6 +1310,13 @@ QDialog#SendCoinsDialog {
 background-color:#2F3241;
 }
 
+#frameCoinControl_BG {
+border-bottom: 5px solid #2F3241;
+}
+#frameFee {
+border-bottom: 5px solid #2F3241;
+border-top: 5px solid #2F3241;
+}
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 background-color:#131722;
 color: #FFFFFF;
