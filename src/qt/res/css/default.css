@@ -44,7 +44,7 @@ background-color:#131722;
 QMenuBar::item {
 background-color:#131722;
 color:#FFFFFF;
-border-bottom: dotted 1px #2f3241;
+border-bottom: 1px dotted #2f3241;
 padding: 10px;
 }
 
@@ -61,12 +61,13 @@ background-color:#131722;
 }
 
 QMenu::item {
-color:#EEC44E;
+color:#FFFFFF;
+border-bottom: 1px dotted #2f3241;
+padding: 10px 10px 10px 30px;
 }
-
 QMenu::item:selected {
-background-color:#f2f0f0;
-color:#EEC44E;
+background-color:#2F3241;
+color:#C6C6C9;
 }
 
 QToolBar {
@@ -927,7 +928,8 @@ QWidget .QFrame#frame_Header { /* Header with Page-Title and Solaris-image */
 min-width:400px;
 background-color:#131722;
 padding: 25px;
-border-bottom: solid 5px #2F3241;
+border-bottom: 9px solid #2F3241;
+border-top: 9px solid #2F3241;
 }
 
 QWidget .QFrame#frame_BG { /* Background */
