@@ -56,13 +56,13 @@
          <number>0</number>
         </property>
         <property name="leftMargin">
-         <number>0</number>
+         <number>9</number>
         </property>
         <property name="topMargin">
          <number>0</number>
         </property>
         <property name="rightMargin">
-         <number>0</number>
+         <number>9</number>
         </property>
         <property name="bottomMargin">
          <number>0</number>
@@ -153,16 +153,16 @@
             <number>0</number>
            </property>
            <property name="leftMargin">
-            <number>0</number>
+            <number>9</number>
            </property>
            <property name="topMargin">
             <number>0</number>
            </property>
            <property name="rightMargin">
-            <number>0</number>
+            <number>9</number>
            </property>
            <property name="bottomMargin">
-            <number>0</number>
+            <number>9</number>
            </property>
            <item>
             <widget class="QFrame" name="frameCoinControl_BG">
@@ -284,7 +284,7 @@
                    </font>
                   </property>
                   <property name="styleSheet">
-                   <string notr="true">color:red;font-weight:bold;</string>
+                   <string notr="true">color:#fe0048;font-weight:bold;</string>
                   </property>
                   <property name="text">
                    <string>Insufficient funds!</string>
@@ -880,21 +880,21 @@
              <x>0</x>
              <y>0</y>
              <width>974</width>
-             <height>159</height>
+             <height>147</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
             <property name="leftMargin">
-             <number>0</number>
+             <number>9</number>
             </property>
             <property name="topMargin">
              <number>0</number>
             </property>
             <property name="rightMargin">
-             <number>0</number>
+             <number>9</number>
             </property>
             <property name="bottomMargin">
-             <number>0</number>
+             <number>9</number>
             </property>
             <item>
              <layout class="QVBoxLayout" name="entries">
@@ -945,16 +945,16 @@
             <number>0</number>
            </property>
            <property name="leftMargin">
-            <number>0</number>
+            <number>9</number>
            </property>
            <property name="topMargin">
             <number>0</number>
            </property>
            <property name="rightMargin">
-            <number>0</number>
+            <number>9</number>
            </property>
            <property name="bottomMargin">
-            <number>0</number>
+            <number>9</number>
            </property>
            <item>
             <layout class="QVBoxLayout" name="verticalLayoutFee2" stretch="0,0,0,0">
@@ -1603,6 +1603,18 @@
         <item>
          <widget class="QFrame" name="frame_Send">
           <layout class="QHBoxLayout" name="horizontalLayout">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>9</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>9</number>
+           </property>
            <property name="bottomMargin">
             <number>0</number>
            </property>

@@ -1316,10 +1316,12 @@ background-color:#fff;
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 background-color:#131722;
+color: #FFFFFF;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameFee { /* Coin Control Section */
 background-color:#131722;
+color: #FFFFFF;
 }
 
 QDialog#SendCoinsDialog .QFrame#frame_Send { /* Coin Control Section */
@@ -1328,7 +1330,7 @@ margin-bottom:6px;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
-/* background-color:#ffff00; */
+color: #FFFFFF;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
