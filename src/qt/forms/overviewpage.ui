@@ -144,6 +144,9 @@
              </property>
              <item>
               <layout class="QVBoxLayout" name="verticalLayout_left" stretch="1">
+               <property name="spacing">
+                <number>0</number>
+               </property>
                <item>
                 <widget class="QFrame" name="frameObfuscation">
                  <property name="minimumSize">
@@ -1026,6 +1029,9 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
              </item>
              <item>
               <layout class="QVBoxLayout" name="verticalLayout_right" stretch="1">
+               <property name="spacing">
+                <number>0</number>
+               </property>
                <item>
                 <widget class="QFrame" name="frame_RecentTransactions">
                  <property name="minimumSize">

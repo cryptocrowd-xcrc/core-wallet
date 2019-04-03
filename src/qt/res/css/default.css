@@ -920,7 +920,7 @@ background-repeat: no-repeat;
 QWidget .QFrame#frame_Header { /* Header with Page-Title and Solaris-image */
 min-width:400px;
 background-color:#131722;
-padding: 10px;
+padding: 15px;
 }
 
 QWidget .QFrame#frame_BG { /* Background */
@@ -937,13 +937,13 @@ background-color:#131722;
 
 QWidget .QFrame#frame_Content { /* Actual Content */
 min-width:400px;
-background-color:#131722;
+background-color:#2F3241;
+padding: 0;
 }
 
 QWidget .QFrame#frame_Balances { /* Upper left side */
 min-width:400px;
 background-color:#131722;
-margin-right: 10px;
 }
 
 QWidget .QFrame#frame_ZerocoinBalances { /* Lower left side */
