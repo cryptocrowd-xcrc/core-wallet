@@ -943,6 +943,7 @@ background-color:#131722;
 QWidget .QFrame#frame_Balances { /* Upper left side */
 min-width:400px;
 background-color:#131722;
+margin-right: 10px;
 }
 
 QWidget .QFrame#frame_ZerocoinBalances { /* Lower left side */
