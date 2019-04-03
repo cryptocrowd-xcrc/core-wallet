@@ -601,13 +601,6 @@ bool calculateAccumulatedBlocksFor(
 
         nMintsAdded += AddBlockMintsToAccumulator(den, filter, pindex, &witnessAccumulator, true, ret);
 
-        // 10 blocks were accumulated twice when zXLR v2 was activated
-        if (pindex->nHeight == 1050010 && !fDoubleCounted) {
-            pindex = chainActive[1050000];
-            fDoubleCounted = true;
-            continue;
-        }
-
         pindex = chainActive.Next(pindex);
     }
 
