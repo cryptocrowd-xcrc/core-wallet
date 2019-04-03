@@ -230,10 +230,8 @@ background-color:#f2f2f2;
 /***************************** Global Qt Objects ***********************************************************/
 
 QPushButton { /* Global Button Style */
-background-color: #EEC44E; 
+background-color: #387fe1; 
 border-width: 1px;
-border-style: outset;
-border-color: #EEC44E;
 border-radius: 2px;
 color:#ffffff;
 font-size:12px;
@@ -576,23 +574,22 @@ border-radius: 4px;
 }
 
 QSlider::sub-page:horizontal {
-/* background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #5B4C86, stop: 1 #7b67a9); */
-background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #EDDAA6, stop: 1 #b396f6);
-border: 1px solid #EEC44E;
+background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #FFB005, stop: 1 #2F3241);
+border: 1px solid #363C4E;
 height: 10px;
 border-radius: 4px;
 }
 
 QSlider::add-page:horizontal {
-background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #EEC44E, stop: 1 #EDDAA6);
-border: 1px solid #EEC44E;
+background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #FFB005, stop: 1 #2F3241);
+border: 1px solid #363C4E;
 height: 10px;
 border-radius: 4px;
 }
 
 QSlider::handle:horizontal {
-background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #fff, stop:1 #2f3241);
-border: 1px solid #EEC44E;
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #FFB005, stop:1 #2F3241);
+border: 1px solid #363C4E;
 width: 18px;
 height: 18px;
 margin-top: -6px;
@@ -601,8 +598,8 @@ border-radius: 9px;
 }
 
 QSlider::handle:horizontal:hover {
-background-color: qradialgradient(cx: 0.5, cy: 0.5, fx: 0.5, fy: 0.5, radius: 0.7, stop: 0 #EEC44E, stop: 0.7 #ffffff);
-border: 2px solid #EEC44E;
+background-color: qradialgradient(cx: 0.5, cy: 0.5, fx: 0.5, fy: 0.5, radius: 0.7, stop: 0 #FFB005, stop: 0.7 #2F3241);
+border: 2px solid #363C4E;
 width: 16px;
 height: 16px;
 margin-top: -6px;
@@ -1348,7 +1345,8 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlFeature
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 min-width:160px;
 background-color:transparent;
-color:#EEC44E;
+color:#387fe1;
+text-transform: uppercase;
 font-weight:bold;
 font-size:14px;
 margin-right:5px;

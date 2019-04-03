@@ -117,13 +117,13 @@
          <number>0</number>
         </property>
         <property name="leftMargin">
-         <number>6</number>
+         <number>0</number>
         </property>
         <property name="topMargin">
-         <number>6</number>
+         <number>0</number>
         </property>
         <property name="rightMargin">
-         <number>6</number>
+         <number>0</number>
         </property>
         <property name="bottomMargin">
          <number>0</number>
@@ -168,13 +168,19 @@
             <widget class="QFrame" name="frameCoinControl_BG">
              <layout class="QVBoxLayout" name="verticalLayoutCoinControl" stretch="0,0,0,0,0,0">
               <property name="spacing">
-               <number>1</number>
+               <number>0</number>
               </property>
               <property name="leftMargin">
-               <number>10</number>
+               <number>0</number>
               </property>
               <property name="topMargin">
-               <number>10</number>
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
               </property>
               <item>
                <layout class="QHBoxLayout" name="horizontalLayoutCoinControl1">
@@ -278,7 +284,7 @@
                    </font>
                   </property>
                   <property name="styleSheet">
-                   <string notr="true">color:red;font-weight:bold;</string>
+                   <string notr="true">color:#fe0048;font-weight:bold;</string>
                   </property>
                   <property name="text">
                    <string>Insufficient funds!</string>
@@ -873,8 +879,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>962</width>
-             <height>132</height>
+             <width>974</width>
+             <height>159</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
@@ -956,13 +962,13 @@
               <number>0</number>
              </property>
              <property name="leftMargin">
-              <number>6</number>
+              <number>0</number>
              </property>
              <property name="topMargin">
               <number>0</number>
              </property>
              <property name="rightMargin">
-              <number>6</number>
+              <number>0</number>
              </property>
              <item>
               <layout class="QVBoxLayout" name="verticalLayout_feeConf">
