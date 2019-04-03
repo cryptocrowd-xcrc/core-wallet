@@ -169,8 +169,8 @@ color:#EEC44E;
 }
 
 QToolTip {
-background-color:#dedbe5;
-color:#EEC44E;
+background-color:#131722;
+color:#FFFFFF;
 }
 
 /****************************************************************************************/
@@ -197,34 +197,35 @@ min-height:25px;
 outline:0;
 padding:3px;
 border:0px;
-color:#EEC44E;
-background-color:#f2f2f2;
+color:#FFFFFF;
+background-color:transparent;
+border: 1px solid #34596e;
 }
 
 .QValidatedLineEdit:!focus {
-color:#EEC44E;
-background-color:#e7e7e7;
+color:#FFFFFF;
+background-color:transparent;
 }
 
 .QLineEdit:!focus {
-color:#EEC44E;
-background-color:#e7e7e7;
+color:#FFFFFF;
+background-color:transparent;
 }
 
 .QTextEdit:!focus {
-color:#EEC44E;
-background-color:#e7e7e7;
+color:#FFFFFF;
+background-color:transparent;
 }
 
 /* .QValidatedLineEdit:checked, .QLineEdit:checked */
 
 .QValidatedLineEdit:disabled, .QLineEdit:disabled, .QTextEdit:disabled {
-color: #EEC44E;
-background-color:#f2f2f2;
+color: #FFFFFF;
+background-color:transparent;
 }
 
 .QPlainTextEdit {
-background-color:#f2f2f2;
+background-color:transparent;
 }
 
 /***************************** Global Qt Objects ***********************************************************/
@@ -609,7 +610,7 @@ border-radius: 8px;
 /**************************** DIALOG BOXES **********************************************/
 
 QDialog {
-background-color: #fff;
+background-color: #2F3241;
 }
 AskPassphraseDialog {
 background-color: #fff;
@@ -648,7 +649,7 @@ color:#EEC44E;
 }
 
 QDialog .QTabWidget .QWidget {
-background-color:#fff;
+background-color:#2F3241;
 color:#EEC44E;
 }
 
@@ -870,7 +871,7 @@ background-color:#EEC44E;
 }
 
 QDialog#RPCConsole .QGroupBox #line_2 { /* Network Out Line */
-background:#fff;
+background:#2F3241;
 }
 
 /**************************** HELP MENU *************************************************/
@@ -933,9 +934,7 @@ min-width:400px;
 background-color:#2f3241;
 }
 
-#verticalLayout_Master {
-background-color:#2f3241;
-}
+
 
 /**************************** OVERVIEW SCREEN *******************************************/
 
@@ -1314,7 +1313,7 @@ margin-left:0px; /* CSS Voodoo - set to -66px to hide default transaction icons 
 /**************************** SEND DIALOG ***********************************************/
 
 QDialog#SendCoinsDialog {
-background-color:#fff;
+background-color:#2F3241;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
