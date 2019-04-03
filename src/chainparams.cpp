@@ -149,7 +149,6 @@ public:
         nLastPOWBlock = 259200;
         nModifierUpdateBlock = 1;
 
-        nBlockEnforceSerialRange = 1;    //Enforce serial range starting this block
         nZerocoinStartTime = 1523891665; // Monday, April 16, 2018 5:14:25 PM GMT+02:00 DST
         nZerocoinStartHeight = 259300;
 
@@ -260,7 +259,6 @@ public:
         nLastPOWBlock = 1000000;
         nMaturity = 2;
         nMasternodeCountDrift = 4;
-        nBlockEnforceSerialRange = 1000001;
         nZerocoinStartTime = 1633077761;
         nZerocoinStartHeight = 1000005;
 
@@ -350,10 +348,6 @@ public:
         nZerocoinStartHeight = 300;
         nBlockZerocoinV2 = 300;
         nZerocoinStartTime = 1501776000;
-        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = 999999999; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = 999999999; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 999999999; //Last valid accumulator checkpoint
 
         //! Modify the regtest genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1454124731;
