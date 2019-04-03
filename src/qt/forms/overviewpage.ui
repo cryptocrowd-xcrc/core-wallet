@@ -20,7 +20,19 @@
    <string>Form</string>
   </property>
   <layout class="QVBoxLayout" name="topLayout" stretch="1">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>9</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
    <property name="rightMargin">
+    <number>9</number>
+   </property>
+   <property name="bottomMargin">
     <number>9</number>
    </property>
    <item>
@@ -44,6 +56,9 @@
       <enum>QFrame::Raised</enum>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1">
+      <property name="spacing">
+       <number>0</number>
+      </property>
       <property name="leftMargin">
        <number>0</number>
       </property>
@@ -54,10 +69,13 @@
        <number>0</number>
       </property>
       <property name="bottomMargin">
-       <number>6</number>
+       <number>0</number>
       </property>
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_Master" stretch="0,1">
+        <property name="spacing">
+         <number>0</number>
+        </property>
         <property name="leftMargin">
          <number>0</number>
         </property>
@@ -73,6 +91,9 @@
         <item>
          <widget class="QFrame" name="frame_Header">
           <layout class="QVBoxLayout" name="verticalLayout_Header" stretch="0">
+           <property name="spacing">
+            <number>0</number>
+           </property>
            <property name="leftMargin">
             <number>0</number>
            </property>
@@ -88,7 +109,10 @@
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_Header" stretch="1">
              <property name="spacing">
-              <number>6</number>
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
              </property>
              <item>
               <widget class="QLabel" name="labelOverviewHeaderRight">
@@ -125,14 +149,17 @@
         <item>
          <widget class="QFrame" name="frame_Content">
           <layout class="QVBoxLayout" name="verticalLayout_Content">
+           <property name="spacing">
+            <number>0</number>
+           </property>
            <property name="leftMargin">
-            <number>6</number>
+            <number>0</number>
            </property>
            <property name="topMargin">
             <number>0</number>
            </property>
            <property name="rightMargin">
-            <number>6</number>
+            <number>0</number>
            </property>
            <property name="bottomMargin">
             <number>0</number>
@@ -140,11 +167,14 @@
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_Content" stretch="1,1">
              <property name="spacing">
-              <number>6</number>
+              <number>0</number>
              </property>
              <item>
               <layout class="QVBoxLayout" name="verticalLayout_left" stretch="1">
                <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
                 <number>0</number>
                </property>
                <item>
@@ -1030,6 +1060,9 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
              <item>
               <layout class="QVBoxLayout" name="verticalLayout_right" stretch="1">
                <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
                 <number>0</number>
                </property>
                <item>

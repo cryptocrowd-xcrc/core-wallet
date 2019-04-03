@@ -29,7 +29,7 @@ padding:0;
 }
 
 QStatusBar {
-background-color:#2f3241;
+background-color:#131722;
 }
 
 .QFrame {
@@ -38,20 +38,26 @@ border:0px solid #fff;
 }
 
 QMenuBar {
-background-color:#2f3241;
+background-color:#131722;
 }
 
 QMenuBar::item {
-background-color:#2f3241;
-color:#EEC44E;
+background-color:#131722;
+color:#FFFFFF;
+border-bottom: dotted 1px #2f3241;
+padding: 10px;
+}
+
+QMenuBar::item:hover {
+color:#C6C6C9;
 }
 
 QMenuBar::item:selected {
-background-color:#2f3241;
+background-color:#2F3241;
 }
 
 QMenu {
-background-color:#2f3241;
+background-color:#131722;
 }
 
 QMenu::item {
@@ -64,7 +70,7 @@ color:#EEC44E;
 }
 
 QToolBar {
-background-color: qlineargradient(y1:0, y2: 1, stop: 0 #372f44, stop: 0.75 #372f44, stop: 0.99 #ffffff, stop: 1 #ffffff);
+background-color: qlineargradient(y1:0, y2: 1, stop: 0 #131722, stop: 0.75 #131722, stop: 0.99 #2F3241, stop: 1 #2F3241);
 border:0px solid #EEC44E;
 padding:1;
 margin:0;
@@ -73,33 +79,33 @@ width: 70px;
 
 QToolBar > QToolButton {
 Alignment: left;
-background-color: #372f44;
+background-color: #131722;
 selection-background-color:transparent;
-border:0.5px solid #888;
+border:0.5px solid #363C4E;
 border-left: 0px;
 border-right: 0px;
 border-top: 0px;
 min-height:2.5em;
 padding: 0em 0em;
 font-size: 11px;
-color:#aaa;
+color:#EEC44E;
 width: 80px;
 height: 60px;
 }
 
 QToolBar > QToolButton:checked {
-background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #372f44, stop: 1 #372f44);
+background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #131722, stop: 1 #131722);
 color:#fff;
 }
 
 /* QToolBar > QToolButton:hover:!selected { */
 QToolBar > QToolButton:hover {
-background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #372f44, stop: 1 #372f44);
+background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #131722, stop: 1 #131722);
 color:#fff;
 }
 
 QToolBar > QToolButton#ToolbarSpacer:hover:!selected {
-background-color: #372f44; /* Do not highlight placeholder on hover */
+background-color: #131722; /* Do not highlight placeholder on hover */
 }
 
 QToolBar > QToolButton:pressed {
@@ -108,12 +114,12 @@ color:#fff;
 }
 
 QMessageBox {
-background-color:#2f3241;
+background-color:#131722;
 }
 
 QProgressBar {
-color: #AAAAAA;
-border:0px solid grey;
+color: #FFFFFF;
+border:0px solid #363C4E;
 border-radius:5px;
 background-color:transparent;
 padding-left:0px;
@@ -511,7 +517,7 @@ background:#2f3241;
 
 QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical, QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { /* Define Arrow Button Dimensions */
 background-color:#2f3241;
-border: 1px solid #f2f0f0;
+border: 1px solid #131722;
 width:16px;
 height:16px;
 }
@@ -920,7 +926,8 @@ background-repeat: no-repeat;
 QWidget .QFrame#frame_Header { /* Header with Page-Title and Solaris-image */
 min-width:400px;
 background-color:#131722;
-padding: 15px;
+padding: 25px;
+border-bottom: solid 5px #2F3241;
 }
 
 QWidget .QFrame#frame_BG { /* Background */
@@ -938,22 +945,24 @@ background-color:#131722;
 QWidget .QFrame#frame_Content { /* Actual Content */
 min-width:400px;
 background-color:#2F3241;
-padding: 0;
 }
 
 QWidget .QFrame#frame_Balances { /* Upper left side */
 min-width:400px;
 background-color:#131722;
+margin-right: 10px;
 }
 
 QWidget .QFrame#frame_ZerocoinBalances { /* Lower left side */
 min-width:400px;
 background-color:#131722;
+margin-right: 10px;
 }
 
 QWidget .QFrame#frame_CombinedBalances { /* Lower left side */
 min-width:400px;
 background-color:#131722;
+margin-right: 10px;
 }
 
 QWidget .QFrame#frame_RecentTransactions { /* Right side */
