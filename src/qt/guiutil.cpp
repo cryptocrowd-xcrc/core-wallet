@@ -103,7 +103,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
     widget->setFont(bitcoinAddressFont());
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Solaris address (e.g. %1)").arg("D7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
+    widget->setPlaceholderText(QObject::tr("Enter a Solaris address (e.g. %1)").arg("SMtskDX5R97NWrtFm7D9XwE7fciKUG5Ni4"));
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
 }
