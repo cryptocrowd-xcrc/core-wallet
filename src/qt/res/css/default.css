@@ -1318,15 +1318,15 @@ background-color:#fff;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
-background-color:#2f3241;
+background-color:#131722;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameFee { /* Coin Control Section */
-background-color:#2f3241;
+background-color:#131722;
 }
 
 QDialog#SendCoinsDialog .QFrame#frame_Send { /* Coin Control Section */
-background-color:#2f3241;
+background-color:#131722;
 margin-bottom:6px;
 }
 
