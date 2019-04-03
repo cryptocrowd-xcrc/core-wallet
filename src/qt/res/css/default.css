@@ -199,7 +199,8 @@ padding:3px;
 border:0px;
 color:#FFFFFF;
 background-color:transparent;
-border: 1px solid #34596e;
+border: 0;
+border-bottom: 1px solid #34596e;
 }
 
 .QValidatedLineEdit:!focus {
@@ -245,20 +246,12 @@ height: 26px;
 margin: 2px;
 }
 
-QPushButton:hover {
-background-color: qlineargradient(y1:0, y2: 1, stop: 0 #ffffff, stop: 0.1 #ffffff, stop: 0.101 #6f5ca3, stop: 0.9 #6f5ca3, stop: 0.901 #ffffff, stop: 1 #ffffff);
-}
 
 QPushButton:focus {
 /* border:none; */
 /* outline:none; */
 }
 
-QPushButton:pressed {
-background-color: #EEC44E;
-border:1px solid #000000;
-background-color: qlineargradient(y1:0, y2: 1, stop: 0 #00ff00, stop: 0.1 #00ff00, stop: 0.101 #6f5ca3, stop: 0.9 #6f5ca3, stop: 0.901 #00ff00, stop: 1 #00ff00);
-}
 
 /* Special handling for statusbar-icons (which are partly QPushButtons) */
 QPushButton#labelEncryptionIcon, QPushButton#labelConnectionsIcon, QPushButton#labelAutoMintIcon {
@@ -282,11 +275,12 @@ background-color: #f2f2f2;
 }
 
 QComboBox { /* Dropdown Menus */
-border:1px solid #EEC44E;
+color:#FFFFFF;
+background-color:transparent;
+border: 0;
+border-bottom: 1px solid #34596e;
 padding: 3px 5px 3px 5px;
-background:#fcfcfc;
 min-height:25px;
-color:#818181;
 }
 
 QComboBox:checked {
