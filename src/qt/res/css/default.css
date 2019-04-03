@@ -410,17 +410,16 @@ outline:0;
 
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
-background-color: #EEC44E;
-color:#fff;
+background-color: #2f3241;
+color:#50819e;
 min-height:25px;
 font-weight:bold;
 font-size:11px;
 border:0;
-border-right:1px solid #fff;
-padding-left:5px;
-padding-right:5px;
-padding-top:2px;
-padding-bottom:2px;
+padding-left:10px;
+padding-right:10px;
+padding-top:7px;
+padding-bottom:7px;
 }
 
 QHeaderView::down-arrow {
@@ -442,22 +441,22 @@ border:0;
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
 background:transparent;
-border:1px solid #EEC44E;
 }
 
 QTableView::item { /* Table Item */
-background-color:#fcfcfc;
+background-color:#131722;
+border-bottom: 1px dotted #2f3241;
 font-size:12px;
+color:#fff;
 }
 
 QTableView::item:selected { /* Table Item Selected */
-background-color:#EEC44E;
+background-color:#2F3241;
 color:#fff;
 }
 
 QTableWidget { /* Table Background */
-background-color: #fcfcfc;
-alternate-background-color: yellow;
+background-color: #131722;
 border:1px solid #EEC44E;
 }
 
