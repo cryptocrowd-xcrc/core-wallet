@@ -9,16 +9,16 @@
 std::string GetMainCheckpoints() {
     std::string strMainCheckpoints = "[\n"
             "  {\n"
-            "    \"height\": 0,\n"
+            "    \"height\": 759980,\n"
             "    \"1\": \"0\",\n"
             "    \"5\": \"0\",\n"
             "    \"10\": \"0\",\n"
             "    \"50\": \"0\",\n"
             "    \"100\": \"0\",\n"
-            "    \"500\": \"0\",\n"
+            "    \"500\": \"3c1\",\n"
             "    \"1000\": \"0\",\n"
-            "    \"5000\": \"0\"\n"
-            "  }\n"
+            "    \"5000\": \"3c1\"\n"
+            "  }\n"			
             "]";
     return strMainCheckpoints;
 }
