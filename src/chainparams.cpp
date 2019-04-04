@@ -152,7 +152,7 @@ public:
         nZerocoinStartTime = 1523891665; // Monday, April 16, 2018 5:14:25 PM GMT+02:00 DST
         nZerocoinStartHeight = 259300;
 
-	    nBlockZerocoinV2 = 10000000;
+	    nBlockZerocoinV2 = 761251;
 		
         const char* pszTimestamp = "Solaris 30-09-2017";
 
