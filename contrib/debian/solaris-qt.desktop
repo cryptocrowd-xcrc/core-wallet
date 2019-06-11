@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Solaris
-Comment=Solaris P2P Cryptocurrency
-Comment[fr]=Solaris, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Solaris, eşten eşe kriptografik sanal para birimi
+Name=CRyptoCrowd
+Comment=CRyptoCrowd P2P Cryptocurrency
+Comment[fr]=CRyptoCrowd, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CRyptoCrowd, eşten eşe kriptografik sanal para birimi
 Exec=solaris-qt %u
 Terminal=false
 Type=Application

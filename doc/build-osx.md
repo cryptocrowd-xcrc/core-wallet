@@ -44,8 +44,8 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/Solaris-Project/Solaris.git
-        cd Solaris
+        git clone https://github.com/Solaris-Project/CRyptoCrowd.git
+        cd CRyptoCrowd
 
 2.  Build solarisd:
 
@@ -104,14 +104,14 @@ directory. We have to first create the RPC configuration file, though.
 Run `./solarisd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=solarisrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Solaris/solaris.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Solaris/solaris.conf"
+    echo -e "rpcuser=solarisrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/CRyptoCrowd/solaris.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/CRyptoCrowd/solaris.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/Solaris/debug.log
+    tail -f $HOME/Library/Application\ Support/CRyptoCrowd/debug.log
 
 Other commands:
 -------

@@ -2941,7 +2941,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate Solaris Deposit Address</string>
+      <string>Generate CRyptoCrowd Deposit Address</string>
      </property>
      <property name="icon">
       <iconset resource="../solaris.qrc">

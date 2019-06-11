@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  solarisd The Solaris core server.
+#  solarisd The CRyptoCrowd core server.
 #
 #
 # chkconfig: 345 80 20

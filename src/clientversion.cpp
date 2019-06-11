@@ -13,7 +13,7 @@
  * for both solarisd and solaris-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Solaris Core");
+const std::string CLIENT_NAME("CRyptoCrowd Core");
 
 /**
  * Client version number

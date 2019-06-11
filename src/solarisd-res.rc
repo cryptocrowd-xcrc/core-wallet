@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Solaris"
-            VALUE "FileDescription",    "solarisd (OSS daemon/client for Solaris)"
+            VALUE "CompanyName",        "CRyptoCrowd"
+            VALUE "FileDescription",    "solarisd (OSS daemon/client for CRyptoCrowd)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "solarisd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

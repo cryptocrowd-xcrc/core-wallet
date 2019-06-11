@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers
+// Copyright (c) 2017-2018 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "chainparams.h"
@@ -95,12 +95,12 @@ public:
         pchMessageStart[3] = 0xa1;
         vAlertPubKey = ParseHex("045da9271f5d9df405d9e83c7c7e62e9c831cc85c51ffaa6b515c4f9c845dec4bf256460003f26ba9d394a17cb57e6759fe231eca75b801c20bccd19cbe4b7942d");
         nDefaultPort = 60020;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // Solaris starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // CRyptoCrowd starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Solaris: 1 minute
-        nTargetSpacing = 1 * 60;  // Solaris: 1 minute
+        nTargetTimespan = 1 * 60; // CRyptoCrowd: 1 minute
+        nTargetSpacing = 1 * 60;  // CRyptoCrowd: 1 minute
         nMaturity = 101;
         nMaxMoneyOut = 10000000000 * COIN;
         /** Height or Time Based Activations **/
@@ -111,7 +111,7 @@ public:
         nZerocoinStartTime = 1523891665; // Monday, April 16, 2018 5:14:25 PM GMT+02:00 DST
         nZerocoinStartHeight = 259300;
 
-        const char* pszTimestamp = "Solaris 30-09-2017";
+        const char* pszTimestamp = "CRyptoCrowd 30-09-2017";
 
         CMutableTransaction txNew;
         txNew.vin.resize(1);
@@ -287,8 +287,8 @@ public:
         pchMessageStart[3] = 0xac;
         nSubsidyHalvingInterval = 150;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Solaris: 1 day
-        nTargetSpacing = 1 * 60;        // Solaris: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // CRyptoCrowd: 1 day
+        nTargetSpacing = 1 * 60;        // CRyptoCrowd: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1454124731;
         genesis.nBits = 0x207fffff;

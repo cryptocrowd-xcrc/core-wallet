@@ -62,11 +62,11 @@
         <translation>Modtageradresse</translation>
     </message>
     <message>
-        <source>These are your Solaris addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your CRyptoCrowd addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dine adresser til at sende betalinger med. Kontroller altid både beløb og modtageradresse før afsendelse.</translation>
     </message>
     <message>
-        <source>These are your Solaris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your CRyptoCrowd addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine modtager adresser. Det anbefales at anvende en ny adresse til hver transaktion</translation>
     </message>
     <message>
@@ -176,8 +176,8 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
-        <translation>Solaris vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
+        <source>CRyptoCrowd will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <translation>CRyptoCrowd vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 kryptografering</translation>
     </message>
     <message>
-        <source>Enter a Solaris Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Indtast den Solaris adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
+        <source>Enter a CRyptoCrowd Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Indtast den CRyptoCrowd adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>The Solaris address to sign the message with</source>
-        <translation>Den Solaris adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The CRyptoCrowd address to sign the message with</source>
+        <translation>Den CRyptoCrowd adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Solaris address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne Solaris adresse.</translation>
+        <source>Sign the message to prove you own this CRyptoCrowd address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne CRyptoCrowd adresse.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Indtast den krypterede BIP 38 nøgle. Indtast kodeordet i den midterste boks. Klik på dekryptér for at generere den private nøgle. Når nøglen er dekrypteret vil klip på "importér adresse" overføre den private nøgle til tegnebogen.</translation>
     </message>
     <message>
-        <source>The Solaris address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne Solaris adresse</translation>
+        <source>The CRyptoCrowd address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne CRyptoCrowd adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige Solaris adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified CRyptoCrowd address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige CRyptoCrowd adresse.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris kerne</translation>
+        <source>CRyptoCrowd Core</source>
+        <translation>CRyptoCrowd kerne</translation>
     </message>
     <message>
-        <source>Send coins to a Solaris address</source>
-        <translation>Send mønter til en Solaris adresse</translation>
+        <source>Send coins to a CRyptoCrowd address</source>
+        <translation>Send mønter til en CRyptoCrowd adresse</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and solaris: URIs)</source>
-        <translation>Anmod om betaling (genrerer QR kode og Solaris URL)</translation>
+        <translation>Anmod om betaling (genrerer QR kode og CRyptoCrowd URL)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Solaris Core</source>
-        <translation>&amp;Om Solaris kerne</translation>
+        <source>&amp;About CRyptoCrowd Core</source>
+        <translation>&amp;Om CRyptoCrowd kerne</translation>
     </message>
     <message>
-        <source>Show information about Solaris Core</source>
-        <translation>Vis information om Solaris kerne</translation>
+        <source>Show information about CRyptoCrowd Core</source>
+        <translation>Vis information om CRyptoCrowd kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for Solaris</source>
-        <translation>Ret konfigurationsindstillinger for Solaris</translation>
+        <source>Modify configuration options for CRyptoCrowd</source>
+        <translation>Ret konfigurationsindstillinger for CRyptoCrowd</translation>
     </message>
     <message>
-        <source>Sign messages with your Solaris addresses to prove you own them</source>
-        <translation>Underskriv beskeder med Deres Solaris adresser for at bekræfte at De ejer dem.</translation>
+        <source>Sign messages with your CRyptoCrowd addresses to prove you own them</source>
+        <translation>Underskriv beskeder med Deres CRyptoCrowd adresser for at bekræfte at De ejer dem.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Solaris addresses</source>
-        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne Solaris adresse</translation>
+        <source>Verify messages to ensure they were signed with specified CRyptoCrowd addresses</source>
+        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne CRyptoCrowd adresse</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open a Solaris: URI or payment request</source>
-        <translation>Åbn en Solaris URl eller betalingsanmodning</translation>
+        <source>Open a CRyptoCrowd: URI or payment request</source>
+        <translation>Åbn en CRyptoCrowd URl eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the Solaris Core help message to get a list with possible Solaris command-line options</source>
-        <translation>Vis hjelpetekster fra Solaris kernen for at få en liste med mulige Solaris kommandolinie-startparametre</translation>
+        <source>Show the CRyptoCrowd Core help message to get a list with possible CRyptoCrowd command-line options</source>
+        <translation>Vis hjelpetekster fra CRyptoCrowd kernen for at få en liste med mulige CRyptoCrowd kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>Solaris Core client</source>
-        <translation>Solaris kerneklient</translation>
+        <source>CRyptoCrowd Core client</source>
+        <translation>CRyptoCrowd kerneklient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1098,8 +1098,8 @@ Adresse: %4
         <translation>Ret afsenderadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Solaris address.</source>
-        <translation>Den indtastede adresse %1 er ikke en gyldig Solaris adresse</translation>
+        <source>The entered address "%1" is not a valid CRyptoCrowd address.</source>
+        <translation>Den indtastede adresse %1 er ikke en gyldig CRyptoCrowd adresse</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1144,16 +1144,16 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris kerne</translation>
+        <source>CRyptoCrowd Core</source>
+        <translation>CRyptoCrowd kerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Solaris Core</source>
-        <translation>om Solaris kerne</translation>
+        <source>About CRyptoCrowd Core</source>
+        <translation>om CRyptoCrowd kerne</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1199,16 +1199,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Solaris Core.</source>
-        <translation>Velkommen til Solaris kerne</translation>
+        <source>Welcome to CRyptoCrowd Core.</source>
+        <translation>Velkommen til CRyptoCrowd kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Solaris Core will store its data.</source>
-        <translation>Da det er første gang programmet startes, kan De vælge hvor Solaris kernen skal lagre sine data</translation>
+        <source>As this is the first time the program is launched, you can choose where CRyptoCrowd Core will store its data.</source>
+        <translation>Da det er første gang programmet startes, kan De vælge hvor CRyptoCrowd kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>Solaris Core will download and store a copy of the Solaris block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Solaris kernen vil nu hente og gemme en kopi af Solaris blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
+        <source>CRyptoCrowd Core will download and store a copy of the CRyptoCrowd block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>CRyptoCrowd kernen vil nu hente og gemme en kopi af CRyptoCrowd blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1219,8 +1219,8 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris kerne</translation>
+        <source>CRyptoCrowd Core</source>
+        <translation>CRyptoCrowd kerne</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1361,12 +1361,12 @@ Adresse: %4
         <translation>Indtast modtageradresse</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Solaris addresses after it matures.
-To Add: enter percentage to give and Solaris address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other CRyptoCrowd addresses after it matures.
+To Add: enter percentage to give and CRyptoCrowd address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre Solaris adressater når den er tilstrækkelig stor. 
-For at tilføje: Indtast procentsatsen De ønsker at overføre samt den Solaris adresse som skal modtage via Multisendsystemet. 
+        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre CRyptoCrowd adressater når den er tilstrækkelig stor. 
+For at tilføje: Indtast procentsatsen De ønsker at overføre samt den CRyptoCrowd adresse som skal modtage via Multisendsystemet. 
 For at fjerne: Indtast adressen som skal slettes og klik på slet. 
 Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     </message>
@@ -1536,16 +1536,16 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Tilsløringskonfiguration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Solaris's configuration screen.</source>
-        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne Solaris konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening CRyptoCrowd's configuration screen.</source>
+        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne CRyptoCrowd konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Solaris's configuration screen.</source>
-        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne Solaris konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening CRyptoCrowd's configuration screen.</source>
+        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne CRyptoCrowd konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Solaris's configuration screen.</source>
-        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne Solaris konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening CRyptoCrowd's configuration screen.</source>
+        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne CRyptoCrowd konfigurationsbillede.</translation>
     </message>
 </context>
 <context>
@@ -1606,8 +1606,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
     </message>
     <message>
-        <source>Automatically open the Solaris client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn Solaris klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
+        <source>Automatically open the CRyptoCrowd client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn CRyptoCrowd klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1626,12 +1626,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start Solaris after logging in to the system.</source>
-        <translation>Start Solaris automatisk, når der logges på systemet</translation>
+        <source>Automatically start CRyptoCrowd after logging in to the system.</source>
+        <translation>Start CRyptoCrowd automatisk, når der logges på systemet</translation>
     </message>
     <message>
-        <source>&amp;Start Solaris on system login</source>
-        <translation>&amp;start Solaris når der logges på systemet</translation>
+        <source>&amp;Start CRyptoCrowd on system login</source>
+        <translation>&amp;start CRyptoCrowd når der logges på systemet</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1658,8 +1658,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Solaris.</source>
-        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang Solaris klienten startes</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CRyptoCrowd.</source>
+        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang CRyptoCrowd klienten startes</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1672,8 +1672,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Solaris network through a SOCKS5 proxy.</source>
-        <translation>Tilslut Solaris netværket gennem en SOCKS5 PROXY</translation>
+        <source>Connect to the CRyptoCrowd network through a SOCKS5 proxy.</source>
+        <translation>Tilslut CRyptoCrowd netværket gennem en SOCKS5 PROXY</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1823,8 +1823,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Indskyder- eller masternodebelønning er stadig under behandling</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Solaris network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Solaris netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CRyptoCrowd network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med CRyptoCrowd netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1891,10 +1891,10 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
     </message>
     <message>
         <source>Cannot start solaris: click-to-pay handler</source>
-        <translation>Kan ikke starte Solaris "klik for at betale" systemet</translation>
+        <translation>Kan ikke starte CRyptoCrowd "klik for at betale" systemet</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Solaris address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid CRyptoCrowd address or malformed URI parameters.</source>
         <translation>URl kan ikke fortolkes! Det kan skyldes en ugyldig adresse, eller forkerte URl parametre.</translation>
     </message>
     <message>
@@ -1976,8 +1976,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Solaris network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Solaris netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CRyptoCrowd network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med CRyptoCrowd netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>0</source>
@@ -2095,8 +2095,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a Solaris address (e.g. %1)</source>
-        <translation>Indtast en Solaris adresse (F.eks. %1)</translation>
+        <source>Enter a CRyptoCrowd address (e.g. %1)</source>
+        <translation>Indtast en CRyptoCrowd adresse (F.eks. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2229,8 +2229,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Solaris debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Solaris debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
+        <source>Open the CRyptoCrowd debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn CRyptoCrowd debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2397,8 +2397,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the Solaris RPC console.</source>
-        <translation>Velkommen til Solaris RPC konsollet</translation>
+        <source>Welcome to the CRyptoCrowd RPC console.</source>
+        <translation>Velkommen til CRyptoCrowd RPC konsollet</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2468,12 +2468,12 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Valgfri opmærkning som tilknyttes den nye modtageradresse.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Solaris network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Solaris netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the CRyptoCrowd network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på CRyptoCrowd netværket.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Solaris network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Solaris netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the CRyptoCrowd network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på CRyptoCrowd netværket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2749,7 +2749,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uXLRs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uXLR i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uXLRs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Solaris transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for CRyptoCrowd transactions than the network can process.</source>
         <translation>Betaling af mindste transaktionsgebyr vil være fint så længe der er færre transaktioner end der er plads til i blokkene. &lt;br /&gt; Men opmærksomheden henledes på, at det kan resultere i en transaktion der aldrig bliver bekræftet i det øjeblik der er større behov for transaktioner end netværket har plads til. </translation>
     </message>
     <message>
@@ -2853,8 +2853,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Anonyme saldi</translation>
     </message>
     <message>
-        <source>Warning: Invalid Solaris address</source>
-        <translation>Advarsel! Ugyldig Solaris adresse</translation>
+        <source>Warning: Invalid CRyptoCrowd address</source>
+        <translation>Advarsel! Ugyldig CRyptoCrowd adresse</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2952,8 +2952,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The Solaris address to send the payment to</source>
-        <translation>Solaris adressen, som betalingen skal sendes til</translation>
+        <source>The CRyptoCrowd address to send the payment to</source>
+        <translation>CRyptoCrowd adressen, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2992,8 +2992,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the Solaris: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Solaris network.</source>
-        <translation>En besked, der var vedhæftet til Solaris: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
+        <source>A message that was attached to the CRyptoCrowd: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the CRyptoCrowd network.</source>
+        <translation>En besked, der var vedhæftet til CRyptoCrowd: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3019,8 +3019,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Solaris Core is shutting down...</source>
-        <translation>Solaris kernen lukker ned</translation>
+        <source>CRyptoCrowd Core is shutting down...</source>
+        <translation>CRyptoCrowd kernen lukker ned</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3042,8 +3042,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>De kan underskrive beskeder med Deres adresser or at bevise ejerskab. Vær forsigtig med at underskrive noget De er usikker på såsom forsøg op at narre Dem til at oplyse Deres identitet. Skriv kun under på noget De kan stå inde for, og som De er enig i. </translation>
     </message>
     <message>
-        <source>The Solaris address to sign the message with</source>
-        <translation>Den Solaris adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The CRyptoCrowd address to sign the message with</source>
+        <translation>Den CRyptoCrowd adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3074,16 +3074,16 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Solaris address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne Solaris adresse.</translation>
+        <source>Sign the message to prove you own this CRyptoCrowd address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne CRyptoCrowd adresse.</translation>
     </message>
     <message>
-        <source>The Solaris address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne Solaris adresse</translation>
+        <source>The CRyptoCrowd address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne CRyptoCrowd adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige Solaris adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified CRyptoCrowd address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige CRyptoCrowd adresse.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3169,8 +3169,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris kerne</translation>
+        <source>CRyptoCrowd Core</source>
+        <translation>CRyptoCrowd kerne</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3185,8 +3185,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
-        <source>The Solaris Core developers</source>
-        <translation>Solaris "core" udviklerne</translation>
+        <source>The CRyptoCrowd Core developers</source>
+        <translation>CRyptoCrowd "core" udviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3794,8 +3794,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Forbind til den opgivne adresse og lyt efter JSON-.RPC forbindelser. Brug [host]:port notation for IPv6. Der kan indsættes flere linier (standard: Forbind til alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Solaris Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. Solaris core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. CRyptoCrowd Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. CRyptoCrowd core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3814,8 +3814,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Slet alle tegnebogens transaktioner og genskab kun fra blokkæden ved at tilføje -rescan i forbindes med opstart.</translation>
     </message>
     <message>
-        <source>Disable all Solaris specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle Solaris funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
+        <source>Disable all CRyptoCrowd specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Slå alle CRyptoCrowd funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3908,7 +3908,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere Solaris</translation>
+        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere CRyptoCrowd</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -3964,7 +3964,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Solaris Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "CRyptoCrowd Alert" admin@foo.com
 </source>
         <translation>For at bruge solarisd eller -server muligheden sammen med solaris-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
@@ -3975,12 +3975,12 @@ rpcpasswrd=%s
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!
 Hvis filen ikke eksisterer, opret den med sikkerhedsindstillingen - ejer kun læserettigheder tilladelsen.
 Det anbefales tillige at vælge alertnotify til for at blive orienteret om eventuelle problemer.
-For eksempel: alertnotify=Echo %% | mail - s "Solaris ALARM!" e-mail@administrator.dk
+For eksempel: alertnotify=Echo %% | mail - s "CRyptoCrowd ALARM!" e-mail@administrator.dk
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Solaris Core is probably already running.</source>
-        <translation>Det var ikke muligt at forbinde %s på denne computer. Solaris kører sandsynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. CRyptoCrowd Core is probably already running.</source>
+        <translation>Det var ikke muligt at forbinde %s på denne computer. CRyptoCrowd kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4007,8 +4007,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Solaris ALARM!" e-mail@administrat
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Solaris Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil Solaris core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong CRyptoCrowd Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil CRyptoCrowd core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4155,8 +4155,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Solaris ALARM!" e-mail@administrat
         <translation>Copyright (C) 2014-%i The Dash Core Developers </translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Solaris Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Solaris Core Developers</translation>
+        <source>Copyright (C) 2015-%i The CRyptoCrowd Core Developers</source>
+        <translation>Copyright (C) 2015-%i The CRyptoCrowd Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4227,8 +4227,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Solaris ALARM!" e-mail@administrat
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Solaris Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af Solaris core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CRyptoCrowd Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af CRyptoCrowd core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4339,8 +4339,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Solaris ALARM!" e-mail@administrat
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Solaris Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. Solaris core lukker ned. </translation>
+        <source>Initialization sanity check failed. CRyptoCrowd Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. CRyptoCrowd core lukker ned. </translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4895,8 +4895,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Solaris ALARM!" e-mail@administrat
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Solaris Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart Solaris core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart CRyptoCrowd Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart CRyptoCrowd core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

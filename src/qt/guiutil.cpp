@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers
+// Copyright (c) 2017-2018 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -111,7 +111,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Solaris address (e.g. %1)").arg("AWSbBnzmNkjDVaYHX7vkL1MqD96pRYWtZo"));
+    widget->setPlaceholderText(QObject::tr("Enter a CRyptoCrowd address (e.g. %1)").arg("AWSbBnzmNkjDVaYHX7vkL1MqD96pRYWtZo"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -128,7 +128,7 @@ void setupAmountWidget(QLineEdit* widget, QWidget* parent)
 
 bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
 {
-    // return if URI is not valid or is no Solaris: URI
+    // return if URI is not valid or is no CRyptoCrowd: URI
     if (!uri.isValid() || uri.scheme() != QString(URI_SCHEME))
         return false;
 
@@ -583,12 +583,12 @@ bool DHMSTableWidgetItem::operator<(QTableWidgetItem const& item) const
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Solaris.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "CRyptoCrowd.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Solaris.lnk
+    // check for CRyptoCrowd.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -701,7 +701,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a solaris.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Solaris\n";
+        optionFile << "Name=CRyptoCrowd\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

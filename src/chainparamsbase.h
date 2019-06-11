@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between solaris-cli and solarisd)
- * of a given instance of the Solaris system.
+ * of a given instance of the CRyptoCrowd system.
  */
 class CBaseChainParams
 {
