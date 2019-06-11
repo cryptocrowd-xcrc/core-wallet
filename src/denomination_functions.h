@@ -6,8 +6,8 @@
  * @copyright  Copyright 2017 CRyptoCrowd Developers
  * @license    This project is released under the MIT license.
  **/
-// Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright(c) 2015-2017 The PIVX developers
+// Copyright(c) 2017-2018 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
 
 #include "reverse_iterate.h"
 #include "util.h"

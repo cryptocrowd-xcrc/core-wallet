@@ -10,7 +10,7 @@
  * @license    This project is released under the MIT license.
  **/
 
-// Copyright (c) 2017 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright(c) 2017 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
 #include <stdexcept>
 #include <iostream>
 #include "Coin.h"
