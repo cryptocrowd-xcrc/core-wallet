@@ -1,2 +1,2 @@
-usr/local/bin/solarisd usr/bin
-usr/local/bin/solaris-cli usr/bin
+usr/local/bin/xcrcd usr/bin
+usr/local/bin/xcrc-cli usr/bin

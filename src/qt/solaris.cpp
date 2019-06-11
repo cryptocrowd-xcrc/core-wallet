@@ -1,12 +1,12 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright (c) 2017-2018 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/solaris-config.h"
+#include "config/cryptocrowd-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -94,7 +94,7 @@ static void InitMessage(const std::string& message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("solaris-core", psz).toStdString();
+    return QCoreApplication::translate("cryptocrowd-core", psz).toStdString();
 }
 
 static QString GetLangTerritory()
@@ -141,11 +141,11 @@ static void initTranslations(QTranslator& qtTranslatorBase, QTranslator& qtTrans
     if (qtTranslator.load("qt_" + lang_territory, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         QApplication::installTranslator(&qtTranslator);
 
-    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in solaris.qrc)
+    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in cryptocrowd.qrc)
     if (translatorBase.load(lang, ":/translations/"))
         QApplication::installTranslator(&translatorBase);
 
-    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in solaris.qrc)
+    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in cryptocrowd.qrc)
     if (translator.load(lang_territory, ":/translations/"))
         QApplication::installTranslator(&translator);
 }
@@ -253,7 +253,7 @@ private:
     void startThread();
 };
 
-#include "solaris.moc"
+#include "cryptocrowd.moc"
 
 BitcoinCore::BitcoinCore() : QObject()
 {
@@ -536,8 +536,8 @@ int main(int argc, char* argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
 
-    Q_INIT_RESOURCE(solaris_locale);
-    Q_INIT_RESOURCE(solaris);
+    Q_INIT_RESOURCE(cryptocrowd_locale);
+    Q_INIT_RESOURCE(cryptocrowd);
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100
@@ -596,7 +596,7 @@ int main(int argc, char* argv[])
     if (!Intro::pickDataDirectory())
         return 0;
 
-    /// 6. Determine availability of data directory and parse solaris.conf
+    /// 6. Determine availability of data directory and parse cryptocrowd.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false))) {
         QMessageBox::critical(0, QObject::tr("CRyptoCrowd Core"),
@@ -653,7 +653,7 @@ int main(int argc, char* argv[])
         exit(0);
 
     // Start up the payment server early, too, so impatient users that click on
-    // solaris: links repeatedly have their payment requests routed to this process:
+    // cryptocrowd: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 

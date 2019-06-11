@@ -3,17 +3,17 @@ Description=CRyptoCrowd's distributed currency daemon
 After=network.target
 
 [Service]
-User=solaris
-Group=solaris
+User=cryptocrowd
+Group=cryptocrowd
 
 Type=forking
-PIDFile=/var/lib/solarisd/solarisd.pid
+PIDFile=/var/lib/xcrcd/xcrcd.pid
 
-ExecStart=/usr/bin/solarisd -daemon -pid=/var/lib/solarisd/solarisd.pid \
-          -conf=/etc/solaris/solaris.conf -datadir=/var/lib/solarisd
+ExecStart=/usr/bin/xcrcd -daemon -pid=/var/lib/xcrcd/xcrcd.pid \
+          -conf=/etc/cryptocrowd/cryptocrowd.conf -datadir=/var/lib/xcrcd
 
-ExecStop=-/usr/bin/solaris-cli -conf=/etc/solaris/solaris.conf \
-         -datadir=/var/lib/solarisd stop
+ExecStop=-/usr/bin/xcrc-cli -conf=/etc/cryptocrowd/cryptocrowd.conf \
+         -datadir=/var/lib/xcrcd stop
 
 Restart=always
 PrivateTmp=true

@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright (c) 2017-2018 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -50,8 +50,8 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "CRyptoCrowd"
-#define QAPP_ORG_DOMAIN "solaris.com"
-#define QAPP_APP_NAME_DEFAULT "Solaris-Qt"
-#define QAPP_APP_NAME_TESTNET "Solaris-Qt-testnet"
+#define QAPP_ORG_DOMAIN "coin.cryptocrowd.city"
+#define QAPP_APP_NAME_DEFAULT "CRyptoCrowd-Qt"
+#define QAPP_APP_NAME_TESTNET "CRyptoCrowd-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

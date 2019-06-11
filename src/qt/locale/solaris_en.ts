@@ -786,7 +786,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
+        <source>Request payments (generates QR codes and cryptocrowd: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1097,7 +1097,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cryptocrowd.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2152,7 +2152,7 @@ Please check the address and try again.</source>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/solaris-project/solaris-project-translations</source>
+https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2562,13 +2562,13 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <location line="+1"/>
-        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in solaris.conf.</source>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in cryptocrowd.conf.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>AutoMint is currently disabled.
-To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in solaris.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in cryptocrowd.conf</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2608,7 +2608,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start solaris: click-to-pay handler</source>
+        <source>Cannot start cryptocrowd: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2721,7 +2721,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+6"/>
-        <source>ZeroSolaris (zXLR)</source>
+        <source>ZeroCRyptoCrowd (zXLR)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5698,9 +5698,9 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     <message>
-        <location filename="../solarisstrings.cpp" line="+15"/>
+        <location filename="../cryptocrowdstrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5941,10 +5941,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>To use solarisd, or the -server option to solaris-qt, you must set an rpcpassword in the configuration file:
+        <source>To use xcrcd, or the -server option to cryptocrowd-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=solarisrpc
+rpcuser=cryptocrowdrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

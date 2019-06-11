@@ -1,6 +1,6 @@
 [Protocol]
-exec=solaris-qt '%u'
-protocol=solaris
+exec=cryptocrowd-qt '%u'
+protocol=cryptocrowd
 input=none
 output=none
 helper=true

@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: solarisd.service
-Upstart: solarisd.conf
-OpenRC:  solarisd.openrc
-         solarisd.openrcconf
-CentOS:  solarisd.init
+SystemD: xcrcd.service
+Upstart: xcrcd.conf
+OpenRC:  xcrcd.openrc
+         xcrcd.openrcconf
+CentOS:  xcrcd.init
 
 have been made available to assist packagers in creating node packages here.
 

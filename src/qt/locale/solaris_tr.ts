@@ -621,8 +621,8 @@
         <translation>Koinleri CRyptoCrowd adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve solaris üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and cryptocrowd: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve cryptocrowd üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -834,8 +834,8 @@ Adres: %4</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (solaris.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cryptocrowd.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (cryptocrowd.conf).
 </translation>
     </message>
 </context>
@@ -1694,7 +1694,7 @@ Adres: %4</translation>
     </message>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     <message>
         <source>Error</source>
         <translation>hata</translation>

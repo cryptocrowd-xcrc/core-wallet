@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出Solaris幣的位址</translation>
+        <translation>選擇要匯出CRyptoCrowd幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收Solaris幣的位址</translation>
+        <translation>選擇要接收CRyptoCrowd幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -590,8 +590,8 @@
         <translation>送出錢幣到 CRyptoCrowd 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 solaris 位址)</translation>
+        <source>Request payments (generates QR codes and cryptocrowd: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 cryptocrowd 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -651,7 +651,7 @@
     </message>
     <message>
         <source>Open a CRyptoCrowd: URI or payment request</source>
-        <translation>打開Solaris: 位址或付款請求 </translation>
+        <translation>打開CRyptoCrowd: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -974,6 +974,6 @@
     <name>ZXLRControlDialog</name>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     </context>
 </TS>

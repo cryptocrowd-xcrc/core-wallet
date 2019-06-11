@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "CRyptoCrowd"
-            VALUE "FileDescription",    "solarisd (OSS daemon/client for CRyptoCrowd)"
+            VALUE "FileDescription",    "xcrcd (OSS daemon/client for CRyptoCrowd)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "solarisd"
+            VALUE "InternalName",       "xcrcd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "solarisd.exe"
-            VALUE "ProductName",        "solarisd"
+            VALUE "OriginalFilename",   "xcrcd.exe"
+            VALUE "ProductName",        "xcrcd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

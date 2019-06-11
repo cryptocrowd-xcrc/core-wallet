@@ -11,9 +11,9 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via SwiftX
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftX
 
-This mechanism has been integrated into Bitcore-Node-Solaris which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/Solaris-Project/insight-api-solaris#web-socket-api](https://github.com/Solaris-Project/insight-api-solaris#web-socket-api) 
-* API: [https://github.com/Solaris-Project/insight-api-solaris#swifttx-transactions](https://github.com/Solaris-Project/insight-api-solaris#swifttx-transactions) 
+This mechanism has been integrated into Bitcore-Node-CRyptoCrowd which allows for notification to be broadcast through Insight API in one of two ways:
+* WebSocket: [https://github.com/CRyptoCrowd-Project/insight-api-cryptocrowd#web-socket-api](https://github.com/CRyptoCrowd-Project/insight-api-cryptocrowd#web-socket-api) 
+* API: [https://github.com/CRyptoCrowd-Project/insight-api-cryptocrowd#swifttx-transactions](https://github.com/CRyptoCrowd-Project/insight-api-cryptocrowd#swifttx-transactions) 
 
 ####Command line option
 

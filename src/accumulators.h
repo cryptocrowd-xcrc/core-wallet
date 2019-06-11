@@ -1,9 +1,9 @@
-// Copyright (c) 2017 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright (c) 2017 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Solaris_ACCUMULATORS_H
-#define Solaris_ACCUMULATORS_H
+#ifndef CRyptoCrowd_ACCUMULATORS_H
+#define CRyptoCrowd_ACCUMULATORS_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Denominations.h"
@@ -21,4 +21,4 @@ bool EraseAccumulatorValues(const uint256& nCheckpointErase, const uint256& nChe
 uint32_t ParseChecksum(uint256 nChecksum, libzerocoin::CoinDenomination denomination);
 uint32_t GetChecksum(const CBigNum &bnValue);
 
-#endif //Solaris_ACCUMULATORS_H
+#endif //CRyptoCrowd_ACCUMULATORS_H

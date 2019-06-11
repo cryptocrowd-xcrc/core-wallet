@@ -1,13 +1,13 @@
 CRyptoCrowd Core version 3.0.0 is now available from:
 
-  <https://github.com/solaris-project/solaris/releases>
+  <https://github.com/cryptocrowd-xcrc/core-wallet/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/solaris-project/solaris/issues>
+  <https://github.com/cryptocrowd-xcrc/core-wallet/issues>
 
 Mandatory Update
 ==============
@@ -19,7 +19,7 @@ Users updating from a previous version after the 13th of October will require a 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/Solaris-Qt (on Mac) or solarisd/solaris-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/CRyptoCrowd-Qt (on Mac) or xcrcd/cryptocrowd-qt (on Linux).
 
 Compatibility
 ==============
@@ -132,4 +132,4 @@ Thanks to everyone who directly contributed to this release:
 - amirabrams
 - presstab
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/solaris-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/cryptocrowd-project-translations/).

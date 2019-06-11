@@ -1,13 +1,13 @@
 CRyptoCrowd Core version 3.0.4 is now available from:
 
-  <https://github.com/solaris-project/solaris/releases>
+  <https://github.com/cryptocrowd-xcrc/core-wallet/releases>
 
 This is a new minor-revision version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/solaris-project/solaris/issues>
+  <https://github.com/cryptocrowd-xcrc/core-wallet/issues>
 
 
 Mandatory Update
@@ -21,7 +21,7 @@ Users will have a grace period to update their clients before versions prior to 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/Solaris-Qt (on Mac) or solarisd/solaris-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/CRyptoCrowd-Qt (on Mac) or xcrcd/cryptocrowd-qt (on Linux).
 
 
 Compatibility
@@ -100,7 +100,7 @@ git merge commit are mentioned.
 - #298 `3580394` Reorg help to stop travis errors (Jon Spock)
 - #302 `efb648b` [Cleanup] Remove unused variables (rejectedpromise)
 - #307 `dbd801d` Remove hard-coded GIT_ARCHIVE define (Jon Spock)
-- #314 `f1c830a` Fix issue causing crash when solarisd --help was invoked (Jon Spock)
+- #314 `f1c830a` Fix issue causing crash when xcrcd --help was invoked (Jon Spock)
 - #326 `8b6a13e` Combine 2 LogPrintf statement to reduce debug.log clutter (Jon Spock)
 - #328 `a6c18c8` [Main] CRyptoCrowd not responding on user quitting app (Aaron Langford)
 
@@ -117,4 +117,4 @@ Thanks to everyone who directly contributed to this release:
 - rejectedpromise
 - aaronlangford31
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/solaris-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/cryptocrowd-project-translations/).

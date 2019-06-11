@@ -3,7 +3,7 @@ CRyptoCrowd Core
 
 Setup
 ---------------------
-[CRyptoCrowd Core](http://solaris.com/wallet) is the original CRyptoCrowd client and it builds the backbone of the network. However, it downloads and stores the entire history of CRyptoCrowd transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[CRyptoCrowd Core](https://github.com/cryptocrowd-xcrc/core-wallet) is the original CRyptoCrowd client and it builds the backbone of the network. However, it downloads and stores the entire history of CRyptoCrowd transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -13,23 +13,22 @@ The following are some helpful notes on how to run CRyptoCrowd on your native pl
 
 Unpack the files into a directory and run:
 
-- bin/32/solaris-qt (GUI, 32-bit) or bin/32/solarisd (headless, 32-bit)
-- bin/64/solaris-qt (GUI, 64-bit) or bin/64/solarisd (headless, 64-bit)
+- bin/32/cryptocrowd-qt (GUI, 32-bit) or bin/32/xcrcd (headless, 32-bit)
+- bin/64/cryptocrowd-qt (GUI, 64-bit) or bin/64/xcrcd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run solaris-qt.exe.
+Unpack the files into a directory, and then run cryptocrowd-qt.exe.
 
 ### OSX
 
-Drag Solaris-Qt to your applications folder, and then run Solaris-Qt.
+Drag CRyptoCrowd-Qt to your applications folder, and then run CRyptoCrowd-Qt.
 
 ### Need Help?
 
 * See the documentation at the [CRyptoCrowd Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [CRyptoCrowd Forum](http://forum.solaris.com/).
-* Join one of our Slack groups [CRyptoCrowd Slack Groups](https://solaris.com/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=5105389) or on the [CRyptoCrowd Discord](https://discord.gg/pyCqbpB).
 
 Building
 ---------------------
@@ -41,7 +40,7 @@ The following are developer notes on how to build CRyptoCrowd on your native pla
 
 Development
 ---------------------
-The CRyptoCrowd repo's [root README](https://github.com/Solaris-Project/CRyptoCrowd/blob/master/README.md) contains relevant information on the development process and automated testing.
+The CRyptoCrowd repo's [root README](https://github.com/cryptocrowd-xcrc/core-wallet/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +54,7 @@ The CRyptoCrowd repo's [root README](https://github.com/Solaris-Project/CRyptoCr
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [CRyptoCrowd](http://forum.solaris.com/) forum.
-* Join the [Solaris-Dev](https://solaris-dev.slack.com/) Slack group ([Sign-Up](https://solaris-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=5105389) or on the [CRyptoCrowd Discord](https://discord.gg/pyCqbpB).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

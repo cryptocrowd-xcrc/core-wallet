@@ -1,25 +1,25 @@
-# /etc/conf.d/solarisd: config file for /etc/init.d/solarisd
+# /etc/conf.d/xcrcd: config file for /etc/init.d/xcrcd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/solaris/solaris.conf"
+#BITCOIND_CONFIGFILE="/etc/cryptocrowd/cryptocrowd.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/solarisd"
+#BITCOIND_PIDDIR="/var/run/xcrcd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/solarisd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/xcrcd.pid"
 
-# Where to write solarisd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/solarisd"
+# Where to write xcrcd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/xcrcd"
 
-# User and group to own solarisd process
-#BITCOIND_USER="solaris"
-#BITCOIND_GROUP="solaris"
+# User and group to own xcrcd process
+#BITCOIND_USER="cryptocrowd"
+#BITCOIND_GROUP="cryptocrowd"
 
-# Path to solarisd executable
-#BITCOIND_BIN="/usr/bin/solarisd"
+# Path to xcrcd executable
+#BITCOIND_BIN="/usr/bin/xcrcd"
 
-# Nice value to run solarisd under
+# Nice value to run xcrcd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

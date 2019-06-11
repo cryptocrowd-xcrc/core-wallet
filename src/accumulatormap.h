@@ -1,8 +1,8 @@
-// Copyright (c) 2017 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright (c) 2017 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef Solaris_ACCUMULATORMAP_H
-#define Solaris_ACCUMULATORMAP_H
+#ifndef CRyptoCrowd_ACCUMULATORMAP_H
+#define CRyptoCrowd_ACCUMULATORMAP_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Coin.h"
@@ -20,4 +20,4 @@ public:
     uint256 GetCheckpoint();
     void Reset();
 };
-#endif //Solaris_ACCUMULATORMAP_H
+#endif //CRyptoCrowd_ACCUMULATORMAP_H

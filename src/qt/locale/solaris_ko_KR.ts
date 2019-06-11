@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>CRyptoCrowd will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
-        <translation>Solaris는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 XLRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <translation>CRyptoCrowd는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 XLRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -610,8 +610,8 @@
         <translation>CRyptoCrowd 주소로 전송하기</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
-        <translation>결제 요청 (QR 코드 및 solaris: URI 생성)</translation>
+        <source>Request payments (generates QR codes and cryptocrowd: URIs)</source>
+        <translation>결제 요청 (QR 코드 및 cryptocrowd: URI 생성)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -639,7 +639,7 @@
     </message>
     <message>
         <source>Modify configuration options for CRyptoCrowd</source>
-        <translation>Solaris에 대한 구성 옵션 수정</translation>
+        <translation>CRyptoCrowd에 대한 구성 옵션 수정</translation>
     </message>
     <message>
         <source>Sign messages with your CRyptoCrowd addresses to prove you own them</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>텍스트라벨</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
-        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (solaris.conf)에 txindex = 1을 설정해야합니다.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cryptocrowd.conf).</source>
+        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (cryptocrowd.conf)에 txindex = 1을 설정해야합니다.</translation>
     </message>
 </context>
 <context>
@@ -1581,15 +1581,15 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening CRyptoCrowd's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) Solaris의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) CRyptoCrowd의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening CRyptoCrowd's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) Solaris의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) CRyptoCrowd의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening CRyptoCrowd's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) Solaris의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) CRyptoCrowd의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -1671,7 +1671,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Automatically start CRyptoCrowd after logging in to the system.</source>
-        <translation>시스템 로그인 후 Solaris을 자동으로 시작합니다.</translation>
+        <translation>시스템 로그인 후 CRyptoCrowd을 자동으로 시작합니다.</translation>
     </message>
     <message>
         <source>&amp;Start CRyptoCrowd on system login</source>
@@ -1703,13 +1703,13 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting CRyptoCrowd.</source>
-        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 Solaris을 다시 시작한 후에 적용됩니다.</translation>
+        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 CRyptoCrowd을 다시 시작한 후에 적용됩니다.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/solaris-project/solaris-project-translations</source>
+https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</source>
         <translation>지원 언어가 없거나 번역이 불완전한가요? 번역을 도와주세요 :
-https://www.transifex.com/solaris-project/solaris-project-translations</translation>
+https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1978,8 +1978,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>잘못된 결제 주소 %1</translation>
     </message>
     <message>
-        <source>Cannot start solaris: click-to-pay handler</source>
-        <translation>Solaris을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
+        <source>Cannot start cryptocrowd: click-to-pay handler</source>
+        <translation>CRyptoCrowd을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid CRyptoCrowd address or malformed URI parameters.</source>
@@ -2068,7 +2068,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>제로코인 프로토콜을 통해 익명화된 XLR</translation>
     </message>
     <message>
-        <source>ZeroSolaris (zXLR)</source>
+        <source>ZeroCRyptoCrowd (zXLR)</source>
         <translation>제로코인 XLR (zXLR)</translation>
     </message>
     <message>
@@ -4304,7 +4304,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx 메타 데이터 유지 예 : 계정 소유자 및 지불 요청 정보, 2 = tx 메타 데이터 삭제)</translation>
@@ -4355,7 +4355,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Disable all CRyptoCrowd specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Solaris의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
+        <translation>CRyptoCrowd의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4494,10 +4494,10 @@ Please be patient...</source>
         <translation>이 제품은 OpenSSL이 개발한 Open SSL 툴킷 &lt;https://www.openssl.org/&gt; 에서 사용하기 위한 프로젝트 소프트웨어, Eric Young이 개발한 암호화 소프트웨어, Thomas Bernard가 개발한 UPnP 소프트웨어가 포함되어 있습니다.</translation>
     </message>
     <message>
-        <source>To use solarisd, or the -server option to solaris-qt, you must set an rpcpassword in the configuration file:
+        <source>To use xcrcd, or the -server option to cryptocrowd-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=solarisrpc
+rpcuser=cryptocrowdrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4505,10 +4505,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "CRyptoCrowd Alert" admin@foo.com
 </source>
-        <translation>Solarisd 또는 Solaris-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
+        <translation>CRyptoCrowdd 또는 CRyptoCrowd-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
 %s
 다음 무작위 암호를 사용하는 것을 추천합니다:
-rpcuser=Solarispc
+rpcuser=CRyptoCrowdpc
 rpcpassword=%s
 (이 비밀번호는 기억할 필요가 없습니다)
 유저 이름과 비밀번호는 반드시 달라야 합니다.

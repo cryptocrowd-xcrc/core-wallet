@@ -610,7 +610,7 @@
         <translation>Enviar coins a una dirección CRyptoCrowd</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
+        <source>Request payments (generates QR codes and cryptocrowd: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -853,8 +853,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (solaris.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cryptocrowd.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (cryptocrowd.conf).</translation>
     </message>
 </context>
 <context>
@@ -1707,9 +1707,9 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/solaris-project/solaris-project-translations</source>
+https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/solaris-project/solaris-project-translations</translation>
+https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1978,8 +1978,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start solaris: click-to-pay handler</source>
-        <translation>No se puede iniciar solaris: módulo click-to-pay</translation>
+        <source>Cannot start cryptocrowd: click-to-pay handler</source>
+        <translation>No se puede iniciar cryptocrowd: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid CRyptoCrowd address or malformed URI parameters.</source>
@@ -2068,8 +2068,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>XLR que fueron anonimizados mediante Protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>ZeroSolaris (zXLR)</source>
-        <translation>ZeroSolaris (zXLR)</translation>
+        <source>ZeroCRyptoCrowd (zXLR)</source>
+        <translation>ZeroCRyptoCrowd (zXLR)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -4302,7 +4302,7 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -4496,10 +4496,10 @@ Por favor tenga paciencia...</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use solarisd, or the -server option to solaris-qt, you must set an rpcpassword in the configuration file:
+        <source>To use xcrcd, or the -server option to cryptocrowd-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=solarisrpc
+rpcuser=cryptocrowdrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4507,10 +4507,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "CRyptoCrowd Alert" admin@foo.com
 </source>
-        <translation>Para usar solarisd, o la opción -server de solaris-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar xcrcd, o la opción -server de cryptocrowd-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
-rpcuser=solaris
+rpcuser=cryptocrowd
 rpcrpcpassword=%s
 (No necesitas recordar esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser los mismos.

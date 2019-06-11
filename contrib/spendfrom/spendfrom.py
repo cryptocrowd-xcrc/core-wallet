@@ -7,7 +7,7 @@
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a solarisd or solaris-Qt running
+# Assumes it will talk to a xcrcd or CRyptoCrowd-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -33,15 +33,15 @@ def check_json_precision():
         raise RuntimeError("JSON encode/decode loses precision")
 
 def determine_db_dir():
-    """Return the default location of the solaris data directory"""
+    """Return the default location of the cryptocrowd data directory"""
     if platform.system() == "Darwin":
         return os.path.expanduser("~/Library/Application Support/CRyptoCrowd/")
     elif platform.system() == "Windows":
         return os.path.join(os.environ['APPDATA'], "CRyptoCrowd")
-    return os.path.expanduser("~/.solaris")
+    return os.path.expanduser("~/.cryptocrowd")
 
 def read_bitcoin_config(dbdir):
-    """Read the solaris.conf file from dbdir, returns dictionary of settings"""
+    """Read the cryptocrowd.conf file from dbdir, returns dictionary of settings"""
     from ConfigParser import SafeConfigParser
 
     class FakeSecHead(object):
@@ -59,11 +59,11 @@ def read_bitcoin_config(dbdir):
                 return s
 
     config_parser = SafeConfigParser()
-    config_parser.readfp(FakeSecHead(open(os.path.join(dbdir, "solaris.conf"))))
+    config_parser.readfp(FakeSecHead(open(os.path.join(dbdir, "cryptocrowd.conf"))))
     return dict(config_parser.items("all"))
 
 def connect_JSON(config):
-    """Connect to a solaris JSON-RPC server"""
+    """Connect to a cryptocrowd JSON-RPC server"""
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:
@@ -72,7 +72,7 @@ def connect_JSON(config):
     try:
         result = ServiceProxy(connect)
         # ServiceProxy is lazy-connect, so send an RPC command mostly to catch connection errors,
-        # but also make sure the solarisd we're talking to is/isn't testnet:
+        # but also make sure the xcrcd we're talking to is/isn't testnet:
         if result.getmininginfo()['testnet'] != testnet:
             sys.stderr.write("RPC server at "+connect+" testnet setting mismatch\n")
             sys.exit(1)
@@ -81,36 +81,36 @@ def connect_JSON(config):
         sys.stderr.write("Error connecting to RPC server at "+connect+"\n")
         sys.exit(1)
 
-def unlock_wallet(solarisd):
-    info = solarisd.getinfo()
+def unlock_wallet(xcrcd):
+    info = xcrcd.getinfo()
     if 'unlocked_until' not in info:
         return True # wallet is not encrypted
     t = int(info['unlocked_until'])
     if t <= time.time():
         try:
             passphrase = getpass.getpass("Wallet is locked; enter passphrase: ")
-            solarisd.walletpassphrase(passphrase, 5)
+            xcrcd.walletpassphrase(passphrase, 5)
         except:
             sys.stderr.write("Wrong passphrase\n")
 
-    info = solarisd.getinfo()
+    info = xcrcd.getinfo()
     return int(info['unlocked_until']) > time.time()
 
-def list_available(solarisd):
+def list_available(xcrcd):
     address_summary = dict()
 
     address_to_account = dict()
-    for info in solarisd.listreceivedbyaddress(0):
+    for info in xcrcd.listreceivedbyaddress(0):
         address_to_account[info["address"]] = info["account"]
 
-    unspent = solarisd.listunspent(0)
+    unspent = xcrcd.listunspent(0)
     for output in unspent:
         # listunspent doesn't give addresses, so:
-        rawtx = solarisd.getrawtransaction(output['txid'], 1)
+        rawtx = xcrcd.getrawtransaction(output['txid'], 1)
         vout = rawtx["vout"][output['vout']]
         pk = vout["scriptPubKey"]
 
-        # This code only deals with ordinary pay-to-solaris-address
+        # This code only deals with ordinary pay-to-cryptocrowd-address
         # or pay-to-script-hash outputs right now; anything exotic is ignored.
         if pk["type"] != "pubkeyhash" and pk["type"] != "scripthash":
             continue
@@ -139,8 +139,8 @@ def select_coins(needed, inputs):
         n += 1
     return (outputs, have-needed)
 
-def create_tx(solarisd, fromaddresses, toaddress, amount, fee):
-    all_coins = list_available(solarisd)
+def create_tx(xcrcd, fromaddresses, toaddress, amount, fee):
+    all_coins = list_available(xcrcd)
 
     total_available = Decimal("0.0")
     needed = amount+fee
@@ -159,7 +159,7 @@ def create_tx(solarisd, fromaddresses, toaddress, amount, fee):
     # Note:
     # Python's json/jsonrpc modules have inconsistent support for Decimal numbers.
     # Instead of wrestling with getting json.dumps() (used by jsonrpc) to encode
-    # Decimals, I'm casting amounts to float before sending them to solarisd.
+    # Decimals, I'm casting amounts to float before sending them to xcrcd.
     #
     outputs = { toaddress : float(amount) }
     (inputs, change_amount) = select_coins(needed, potential_inputs)
@@ -170,8 +170,8 @@ def create_tx(solarisd, fromaddresses, toaddress, amount, fee):
         else:
             outputs[change_address] = float(change_amount)
 
-    rawtx = solarisd.createrawtransaction(inputs, outputs)
-    signed_rawtx = solarisd.signrawtransaction(rawtx)
+    rawtx = xcrcd.createrawtransaction(inputs, outputs)
+    signed_rawtx = xcrcd.signrawtransaction(rawtx)
     if not signed_rawtx["complete"]:
         sys.stderr.write("signrawtransaction failed\n")
         sys.exit(1)
@@ -179,10 +179,10 @@ def create_tx(solarisd, fromaddresses, toaddress, amount, fee):
 
     return txdata
 
-def compute_amount_in(solarisd, txinfo):
+def compute_amount_in(xcrcd, txinfo):
     result = Decimal("0.0")
     for vin in txinfo['vin']:
-        in_info = solarisd.getrawtransaction(vin['txid'], 1)
+        in_info = xcrcd.getrawtransaction(vin['txid'], 1)
         vout = in_info['vout'][vin['vout']]
         result = result + vout['value']
     return result
@@ -193,12 +193,12 @@ def compute_amount_out(txinfo):
         result = result + vout['value']
     return result
 
-def sanity_test_fee(solarisd, txdata_hex, max_fee):
+def sanity_test_fee(xcrcd, txdata_hex, max_fee):
     class FeeError(RuntimeError):
         pass
     try:
-        txinfo = solarisd.decoderawtransaction(txdata_hex)
-        total_in = compute_amount_in(solarisd, txinfo)
+        txinfo = xcrcd.decoderawtransaction(txdata_hex)
+        total_in = compute_amount_in(xcrcd, txinfo)
         total_out = compute_amount_out(txinfo)
         if total_in-total_out > max_fee:
             raise FeeError("Rejecting transaction, unreasonable fee of "+str(total_in-total_out))
@@ -229,7 +229,7 @@ def main():
     parser.add_option("--fee", dest="fee", default="0.0",
                       help="fee to include")
     parser.add_option("--datadir", dest="datadir", default=determine_db_dir(),
-                      help="location of solaris.conf file with RPC username/password (default: %default)")
+                      help="location of cryptocrowd.conf file with RPC username/password (default: %default)")
     parser.add_option("--testnet", dest="testnet", default=False, action="store_true",
                       help="Use the test network")
     parser.add_option("--dry_run", dest="dry_run", default=False, action="store_true",
@@ -240,10 +240,10 @@ def main():
     check_json_precision()
     config = read_bitcoin_config(options.datadir)
     if options.testnet: config['testnet'] = True
-    solarisd = connect_JSON(config)
+    xcrcd = connect_JSON(config)
 
     if options.amount is None:
-        address_summary = list_available(solarisd)
+        address_summary = list_available(xcrcd)
         for address,info in address_summary.iteritems():
             n_transactions = len(info['outputs'])
             if n_transactions > 1:
@@ -253,14 +253,14 @@ def main():
     else:
         fee = Decimal(options.fee)
         amount = Decimal(options.amount)
-        while unlock_wallet(solarisd) == False:
+        while unlock_wallet(xcrcd) == False:
             pass # Keep asking for passphrase until they get it right
-        txdata = create_tx(solarisd, options.fromaddresses.split(","), options.to, amount, fee)
-        sanity_test_fee(solarisd, txdata, amount*Decimal("0.01"))
+        txdata = create_tx(xcrcd, options.fromaddresses.split(","), options.to, amount, fee)
+        sanity_test_fee(xcrcd, txdata, amount*Decimal("0.01"))
         if options.dry_run:
             print(txdata)
         else:
-            txid = solarisd.sendrawtransaction(txdata)
+            txid = xcrcd.sendrawtransaction(txdata)
             print(txid)
 
 if __name__ == '__main__':

@@ -790,7 +790,7 @@
     </message>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

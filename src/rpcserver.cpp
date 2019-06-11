@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright (c) 2017-2018 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -320,35 +320,35 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* CRyptoCrowd features */
-        {"solaris", "masternode", &masternode, true, true, false},
-        {"solaris", "listmasternodes", &listmasternodes, true, true, false},
-        {"solaris", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"solaris", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"solaris", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"solaris", "masternodedebug", &masternodedebug, true, true, false},
-        {"solaris", "startmasternode", &startmasternode, true, true, false},
-        {"solaris", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"solaris", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"solaris", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"solaris", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"solaris", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"solaris", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"solaris", "mnbudget", &mnbudget, true, true, false},
-        {"solaris", "preparebudget", &preparebudget, true, true, false},
-        {"solaris", "submitbudget", &submitbudget, true, true, false},
-        {"solaris", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"solaris", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"solaris", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"solaris", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"solaris", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"solaris", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"solaris", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"solaris", "checkbudgets", &checkbudgets, true, true, false},
-        {"solaris", "mnsync", &mnsync, true, true, false},
-        {"solaris", "spork", &spork, true, true, false},
-        {"solaris", "getpoolinfo", &getpoolinfo, true, true, false},
+        {"cryptocrowd", "masternode", &masternode, true, true, false},
+        {"cryptocrowd", "listmasternodes", &listmasternodes, true, true, false},
+        {"cryptocrowd", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"cryptocrowd", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"cryptocrowd", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"cryptocrowd", "masternodedebug", &masternodedebug, true, true, false},
+        {"cryptocrowd", "startmasternode", &startmasternode, true, true, false},
+        {"cryptocrowd", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"cryptocrowd", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"cryptocrowd", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"cryptocrowd", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"cryptocrowd", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"cryptocrowd", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"cryptocrowd", "mnbudget", &mnbudget, true, true, false},
+        {"cryptocrowd", "preparebudget", &preparebudget, true, true, false},
+        {"cryptocrowd", "submitbudget", &submitbudget, true, true, false},
+        {"cryptocrowd", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"cryptocrowd", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"cryptocrowd", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"cryptocrowd", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"cryptocrowd", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"cryptocrowd", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"cryptocrowd", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"cryptocrowd", "checkbudgets", &checkbudgets, true, true, false},
+        {"cryptocrowd", "mnsync", &mnsync, true, true, false},
+        {"cryptocrowd", "spork", &spork, true, true, false},
+        {"cryptocrowd", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"solaris", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"cryptocrowd", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -627,10 +627,10 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use solarisd, or the -server option to solaris-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use xcrcd, or the -server option to cryptocrowd-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=solarisrpc\n"
+                                               "rpcuser=cryptocrowdrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
@@ -1087,7 +1087,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> solaris-cli " + methodname + " " + args + "\n";
+    return "> xcrc-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

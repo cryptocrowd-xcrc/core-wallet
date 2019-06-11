@@ -606,7 +606,7 @@
         <translation>Send mønter til en CRyptoCrowd adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
+        <source>Request payments (generates QR codes and cryptocrowd: URIs)</source>
         <translation>Anmod om betaling (genrerer QR kode og CRyptoCrowd URL)</translation>
     </message>
     <message>
@@ -813,8 +813,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (solaris.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cryptocrowd.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (cryptocrowd.conf).</translation>
     </message>
 </context>
 <context>
@@ -1663,9 +1663,9 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/solaris-project/solaris-project-translations</source>
+https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/solaris-project/solaris-project-translations</translation>
+https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1890,7 +1890,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start solaris: click-to-pay handler</source>
+        <source>Cannot start cryptocrowd: click-to-pay handler</source>
         <translation>Kan ikke starte CRyptoCrowd "klik for at betale" systemet</translation>
     </message>
     <message>
@@ -3768,7 +3768,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
     </message>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -3955,10 +3955,10 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use solarisd, or the -server option to solaris-qt, you must set an rpcpassword in the configuration file:
+        <source>To use xcrcd, or the -server option to cryptocrowd-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=solarisrpc
+rpcuser=cryptocrowdrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3966,10 +3966,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "CRyptoCrowd Alert" admin@foo.com
 </source>
-        <translation>For at bruge solarisd eller -server muligheden sammen med solaris-qt skal der angives et rpc kodeord i konfigurationsfilen:
+        <translation>For at bruge xcrcd eller -server muligheden sammen med cryptocrowd-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
 De anbefales at benytte følgende tilfældige kodeord
-Rpcuser=solarisrpc
+Rpcuser=cryptocrowdrpc
 rpcpasswrd=%s
 (Det er ikke nødvendigt at huske dette kodeord)
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!

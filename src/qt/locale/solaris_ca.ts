@@ -1304,8 +1304,8 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>ZeroSolaris (zXLR)</source>
-        <translation>ZeroSolaris (zXLR)</translation>
+        <source>ZeroCRyptoCrowd (zXLR)</source>
+        <translation>ZeroCRyptoCrowd (zXLR)</translation>
     </message>
     <message>
         <source>0</source>
@@ -1984,7 +1984,7 @@
     </message>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright (c) 2017-2018 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "chainparams.h"
@@ -132,20 +132,20 @@ public:
         assert(hashGenesisBlock == uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"));
         assert(genesis.hashMerkleRoot == uint256("0xa84934befc603b6dc91cd53895bf45cd056b4e7a9562067d7608b94e8704815d"));
 
-        vSeeds.push_back(CDNSSeedData("solarisnode.dyndns.org", "solarisnode.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("solarisnode1.dyndns.org", "solarisnode1.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("solarisnode2.dyndns.org", "solarisnode2.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("solarisnode3.dyndns.org", "solarisnode3.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("solarisnode4.dyndns.org", "solarisnode4.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("solarisnode5.dyndns.org", "solarisnode5.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("solarisnode6.dyndns.org", "solarisnode6.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("cryptocrowdnode.dyndns.org", "cryptocrowdnode.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("cryptocrowdnode1.dyndns.org", "cryptocrowdnode1.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("cryptocrowdnode2.dyndns.org", "cryptocrowdnode2.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("cryptocrowdnode3.dyndns.org", "cryptocrowdnode3.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("cryptocrowdnode4.dyndns.org", "cryptocrowdnode4.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("cryptocrowdnode5.dyndns.org", "cryptocrowdnode5.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("cryptocrowdnode6.dyndns.org", "cryptocrowdnode6.dyndns.org"));
 
-        vSeeds.push_back(CDNSSeedData("node1.solariscoin.com", "node1.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("node2.solariscoin.com", "node2.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("node3.solariscoin.com", "node3.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("node4.solariscoin.com", "node4.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("node5.solariscoin.com", "node5.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("node6.solariscoin.com", "node6.solariscoin.com"));
+        vSeeds.push_back(CDNSSeedData("node1.cryptocrowdcoin.com", "node1.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("node2.cryptocrowdcoin.com", "node2.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("node3.cryptocrowdcoin.com", "node3.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("node4.cryptocrowdcoin.com", "node4.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("node5.cryptocrowdcoin.com", "node5.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("node6.cryptocrowdcoin.com", "node6.cryptocrowdcoin.com"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
@@ -226,28 +226,28 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("testnet-solarisnode1.dyndns.org", "testnet-solarisnode1.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("testnet-solarisnode2.dyndns.org", "testnet-solarisnode2.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("testnet-solarisnode3.dyndns.org", "testnet-solarisnode3.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("testnet-solarisnode4.dyndns.org", "testnet-solarisnode4.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("testnet-solarisnode5.dyndns.org", "testnet-solarisnode5.dyndns.org"));
-        vSeeds.push_back(CDNSSeedData("testnet-solarisnode6.dyndns.org", "testnet-solarisnode6.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("testnet-cryptocrowdnode1.dyndns.org", "testnet-cryptocrowdnode1.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("testnet-cryptocrowdnode2.dyndns.org", "testnet-cryptocrowdnode2.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("testnet-cryptocrowdnode3.dyndns.org", "testnet-cryptocrowdnode3.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("testnet-cryptocrowdnode4.dyndns.org", "testnet-cryptocrowdnode4.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("testnet-cryptocrowdnode5.dyndns.org", "testnet-cryptocrowdnode5.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("testnet-cryptocrowdnode6.dyndns.org", "testnet-cryptocrowdnode6.dyndns.org"));
 
-        vSeeds.push_back(CDNSSeedData("testnet-node1.solariscoin.com", "testnet-node1.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("testnet-node2.solariscoin.com", "testnet-node2.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("testnet-node3.solariscoin.com", "testnet-node3.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("testnet-node4.solariscoin.com", "testnet-node4.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("testnet-node5.solariscoin.com", "testnet-node5.solariscoin.com"));
-        vSeeds.push_back(CDNSSeedData("testnet-node6.solariscoin.com", "testnet-node6.solariscoin.com"));
+        vSeeds.push_back(CDNSSeedData("testnet-node1.cryptocrowdcoin.com", "testnet-node1.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("testnet-node2.cryptocrowdcoin.com", "testnet-node2.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("testnet-node3.cryptocrowdcoin.com", "testnet-node3.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("testnet-node4.cryptocrowdcoin.com", "testnet-node4.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("testnet-node5.cryptocrowdcoin.com", "testnet-node5.cryptocrowdcoin.com"));
+        vSeeds.push_back(CDNSSeedData("testnet-node6.cryptocrowdcoin.com", "testnet-node6.cryptocrowdcoin.com"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 22); // Testnet solaris addresses start with '9' or 'A'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19); // Testnet solaris script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 22); // Testnet cryptocrowd addresses start with '9' or 'A'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19); // Testnet cryptocrowd script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);    // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet solaris BIP32 pubkeys start with 'DRKV'
+        // Testnet cryptocrowd BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet solaris BIP32 prvkeys start with 'DRKP'
+        // Testnet cryptocrowd BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet solaris BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet cryptocrowd BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
         fRequireRPCPassword = true;

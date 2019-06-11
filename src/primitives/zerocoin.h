@@ -1,8 +1,8 @@
-// Copyright (c) 2017 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright (c) 2017 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef Solaris_ZEROCOIN_H
-#define Solaris_ZEROCOIN_H
+#ifndef CRyptoCrowd_ZEROCOIN_H
+#define CRyptoCrowd_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -189,4 +189,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //Solaris_ZEROCOIN_H
+#endif //CRyptoCrowd_ZEROCOIN_H

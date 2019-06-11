@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your CRyptoCrowd addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши Solaris-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <translation>Это ваши CRyptoCrowd-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
         <source>These are your CRyptoCrowd addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши Solaris-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <translation>Это ваши CRyptoCrowd-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -602,7 +602,7 @@
         <translation>Отправить монеты на CRyptoCrowd адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
+        <source>Request payments (generates QR codes and cryptocrowd: URIs)</source>
         <translation>Запросить платежи (генерирует QR-код и CRyptoCrowd: URI)</translation>
     </message>
     <message>
@@ -825,8 +825,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (solaris.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cryptocrowd.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (cryptocrowd.conf).</translation>
     </message>
 </context>
 <context>
@@ -1675,9 +1675,9 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/solaris-project/solaris-project-translations</source>
+https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/solaris-project/solaris-project-translations</translation>
+https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1934,8 +1934,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start solaris: click-to-pay handler</source>
-        <translation>Не удалось запустить solaris: обработчик click-to-pay </translation>
+        <source>Cannot start cryptocrowd: click-to-pay handler</source>
+        <translation>Не удалось запустить cryptocrowd: обработчик click-to-pay </translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid CRyptoCrowd address or malformed URI parameters.</source>
@@ -3205,7 +3205,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
     </message>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>

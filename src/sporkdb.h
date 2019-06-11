@@ -1,9 +1,9 @@
-// Copyright (c) 2017 The Solaris developers /// Copyright (c) 2019 The CRyptoCrowd developers
+// Copyright (c) 2017 The CRyptoCrowd developers /// Copyright (c) 2019 The CRyptoCrowd developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Solaris_CSPORKDB_H
-#define Solaris_CSPORKDB_H
+#ifndef CRyptoCrowd_CSPORKDB_H
+#define CRyptoCrowd_CSPORKDB_H
 
 #include <boost/filesystem/path.hpp>
 #include "leveldbwrapper.h"
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //Solaris_CSPORKDB_H
+#endif //CRyptoCrowd_CSPORKDB_H

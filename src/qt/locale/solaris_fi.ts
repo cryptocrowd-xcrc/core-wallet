@@ -599,8 +599,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lähetä kolikkoja CRyptoCrowd osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja solaris: URIja)</translation>
+        <source>Request payments (generates QR codes and cryptocrowd: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja cryptocrowd: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -2541,7 +2541,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>cryptocrowd-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
