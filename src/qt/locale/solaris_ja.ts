@@ -263,7 +263,7 @@
     </message>
     </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZXCRCControlDialog</name>
     </context>
 <context>
     <name>cryptocrowd-core</name>

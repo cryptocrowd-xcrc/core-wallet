@@ -7,7 +7,7 @@
 </ul>
 <p><strong><span style="color: #800080;"><em>PoW Block Reward:</em></span></strong></p>
 <ul>
-<li>[block# 2-43200] 20% MN (0.4 XLR) / 80% MINER (1.6 XLR) [block# 43201-151200] 20% MN (0.4 XLR) / 70% MINER (1.4 XLR) / 10% Available to the budget system (0.20 XLR) [block# 151201-259200] 45% MN (0.9 XLR) / 45% MINER (0.9 XLR) / 10% Available to the budget system (0.2 XLR)</li>
+<li>[block# 2-43200] 20% MN (0.4 XCRC) / 80% MINER (1.6 XCRC) [block# 43201-151200] 20% MN (0.4 XCRC) / 70% MINER (1.4 XCRC) / 10% Available to the budget system (0.20 XCRC) [block# 151201-259200] 45% MN (0.9 XCRC) / 45% MINER (0.9 XCRC) / 10% Available to the budget system (0.2 XCRC)</li>
 </ul>
 <p><strong><span style="color: #800080;"><em>PoS Block Reward:</em></span></strong></p>
 <ul>
@@ -35,22 +35,22 @@
 </ul>
 <p><strong><span style="color: #800080;"><em>PoW Rewards Breakdown:</em></span></strong></p>
 <ul>
-<li>[block&rsquo;s &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2-43200] 20% MN (0.4 XLR) &nbsp; &nbsp;/ 80% MINER (1.6 XLR)</li>
-<li>[block&rsquo;s &nbsp; 43201-151200] 20% MN (0.4 XLR) &nbsp; &nbsp;/ 70% MINER (1.4 XLR) &nbsp;/ 10% Available to the budget system (0.20 XLR)</li>
-<li>[block&rsquo;s 151201-259200] 45% MN (0.9 XLR) / 45% MINER (0.9 XLR) / 10% Available to the budget system ( &nbsp;0.2 XLR)</li>
+<li>[block&rsquo;s &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2-43200] 20% MN (0.4 XCRC) &nbsp; &nbsp;/ 80% MINER (1.6 XCRC)</li>
+<li>[block&rsquo;s &nbsp; 43201-151200] 20% MN (0.4 XCRC) &nbsp; &nbsp;/ 70% MINER (1.4 XCRC) &nbsp;/ 10% Available to the budget system (0.20 XCRC)</li>
+<li>[block&rsquo;s 151201-259200] 45% MN (0.9 XCRC) / 45% MINER (0.9 XCRC) / 10% Available to the budget system ( &nbsp;0.2 XCRC)</li>
 </ul>
 <p><strong><span style="color: #800080;"><em>PoS Rewards <small><i>(80% for masternodes and 20% for stakers)</i></small> Breakdown:</em></span></strong></p>
 <ul>
-<li>PoS Phase 1: [blocks 259201-302399] 1 XLR</li>
-<li>PoS Phase 2: [blocks 302400-345599] 0.95 XLR</li>
-<li>PoS Phase 3: [blocks 345600-388799] 0.9 XLR</li>
-<li>PoS Phase 4: [blocks 388800-431999] 0.85 XLR</li>
-<li>PoS Phase 5: [blocks 432000-475199] 0.80 XLR</li>
-<li>PoS Phase 6: [blocks 475200-518399] 0.75 XLR</li>
-<li>PoS Phase 7: [blocks 518400-561599] 0.70 XLR</li>
-<li>PoS Phase 8: [blocks 561600-604799] 0.75 XLR</li>
-<li>PoS Phase 9: [blocks 604800-647999] 0.70 XLR</li>
-<li>PoS Phase X: [blocks 648000-Infinite] &nbsp; 0.25 XLR</li>
+<li>PoS Phase 1: [blocks 259201-302399] 1 XCRC</li>
+<li>PoS Phase 2: [blocks 302400-345599] 0.95 XCRC</li>
+<li>PoS Phase 3: [blocks 345600-388799] 0.9 XCRC</li>
+<li>PoS Phase 4: [blocks 388800-431999] 0.85 XCRC</li>
+<li>PoS Phase 5: [blocks 432000-475199] 0.80 XCRC</li>
+<li>PoS Phase 6: [blocks 475200-518399] 0.75 XCRC</li>
+<li>PoS Phase 7: [blocks 518400-561599] 0.70 XCRC</li>
+<li>PoS Phase 8: [blocks 561600-604799] 0.75 XCRC</li>
+<li>PoS Phase 9: [blocks 604800-647999] 0.70 XCRC</li>
+<li>PoS Phase X: [blocks 648000-Infinite] &nbsp; 0.25 XCRC</li>
 </ul>
 <br/>
 <p>&nbsp;</p>
@@ -59,4 +59,4 @@
 <p>CRyptoCrowd is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.</p>
 <p>Anonymized transactions using coin mixing technology, we call it <em>Obfuscation</em>.</p>
 <p>Fast transactions featuring guaranteed zero confirmation transactions, we call it <em>SwiftTX</em>.</p>
-<p>Decentralized blockchain voting providing for consensus based advancement of the current Masternode technology used to secure the network and provide the above features, each Masternode is secured with collateral of 1000 XLR</p>
+<p>Decentralized blockchain voting providing for consensus based advancement of the current Masternode technology used to secure the network and provide the above features, each Masternode is secured with collateral of 1000 XCRC</p>

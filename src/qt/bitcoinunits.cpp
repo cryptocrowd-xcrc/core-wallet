@@ -20,7 +20,7 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(XLR);
+    unitlist.append(XCRC);
     unitlist.append(mXLR);
     unitlist.append(uXLR);
     return unitlist;
@@ -29,7 +29,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case XLR:
+    case XCRC:
     case mXLR:
     case uXLR:
         return true;
@@ -41,7 +41,7 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case XLR:
+    case XCRC:
         return QString("cryptocrowd");
     case mXLR:
         return QString("mcryptocrowd");
@@ -56,8 +56,8 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case XLR:
-            return QString("XLR");
+        case XCRC:
+            return QString("XCRC");
         case mXLR:
             return QString("mXLR");
         case uXLR:
@@ -67,7 +67,7 @@ QString BitcoinUnits::name(int unit)
         }
     } else {
         switch (unit) {
-        case XLR:
+        case XCRC:
             return QString("tXLR");
         case mXLR:
             return QString("mtXLR");
@@ -83,8 +83,8 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case XLR:
-            return QString("XLR");
+        case XCRC:
+            return QString("XCRC");
         case mXLR:
             return QString("Milli-XLR (1 / 1" THIN_SP_UTF8 "000)");
         case uXLR:
@@ -94,7 +94,7 @@ QString BitcoinUnits::description(int unit)
         }
     } else {
         switch (unit) {
-        case XLR:
+        case XCRC:
             return QString("TestXLRs");
         case mXLR:
             return QString("Milli-TestXLR (1 / 1" THIN_SP_UTF8 "000)");
@@ -109,7 +109,7 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case XLR:
+    case XCRC:
         return 100000000;
     case mXLR:
         return 100000;
@@ -123,7 +123,7 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case XLR:
+    case XCRC:
         return 8;
     case mXLR:
         return 5;

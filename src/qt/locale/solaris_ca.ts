@@ -169,14 +169,14 @@
     </message>
     <message>
         <source>CRyptoCrowd will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
-        <translation>CRyptoCrowd es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus XLR de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <translation>CRyptoCrowd es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus XCRC de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XCRC&lt;/b&gt;!</source>
         <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES XLRS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -1142,24 +1142,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 XLR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 XCRC</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 XCRC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 XLR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 XCRC</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 XCRC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 XLR per anonimitzar 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 XCRC to anonymize 10000 XCRC</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 XCRC per anonimitzar 10000 XCRC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 XLR per anonimitzar 10000 XLR</translation>
+        <source>This option is moderately fast and will cost about 0.05 XCRC to anonymize 10000 XCRC</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 XCRC per anonimitzar 10000 XCRC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1271,12 +1271,12 @@
         <translation>Total:</translation>
     </message>
     <message>
-        <source>XLR:</source>
-        <translation>XLR:</translation>
+        <source>XCRC:</source>
+        <translation>XCRC:</translation>
     </message>
     <message>
-        <source>zXLR:</source>
-        <translation>zXLR:</translation>
+        <source>zXCRC:</source>
+        <translation>zXCRC:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1304,20 +1304,20 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>ZeroCRyptoCrowd (zXLR)</source>
-        <translation>ZeroCRyptoCrowd (zXLR)</translation>
+        <source>ZeroCRyptoCrowd (zXCRC)</source>
+        <translation>ZeroCRyptoCrowd (zXCRC)</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zXCRC</source>
+        <translation>zXCRC</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLR</source>
-        <translation>0.000 000 00 XLR</translation>
+        <source>0.000 000 00 XCRC</source>
+        <translation>0.000 000 00 XCRC</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1332,8 +1332,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zXLR</source>
-        <translation>0 zXLR</translation>
+        <source>0 zXCRC</source>
+        <translation>0 zXCRC</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1969,7 +1969,7 @@
     </message>
     </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZXCRCControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantitat</translation>
@@ -1979,8 +1979,8 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zXCRC</source>
+        <translation>zXCRC</translation>
     </message>
     </context>
 <context>

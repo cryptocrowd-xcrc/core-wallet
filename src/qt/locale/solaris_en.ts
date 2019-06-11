@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XCRC&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zXLR</source>
+        <source>Privacy Actions for zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1953,12 +1953,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 XCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 XCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1968,12 +1968,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
+        <source>This option is the quickest and will cost about ~0.025 XCRC to anonymize 10000 XCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
+        <source>This option is moderately fast and will cost about 0.05 XCRC to anonymize 10000 XCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1983,7 +1983,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
+        <source>0.1 XCRC per 10000 XCRC you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2162,23 +2162,23 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</sou
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming XLR which get automatically converted to zXLR via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming XCRC which get automatically converted to zXCRC via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zXLR</source>
+        <source>Percentage of autominted zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough XLR for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough XCRC for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zXLR Denomination</source>
+        <source>Preferred Automint zXCRC Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2348,7 +2348,7 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</sou
     </message>
     <message>
         <location line="+43"/>
-        <source>XLR Balances</source>
+        <source>XCRC Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2449,17 +2449,17 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</sou
     </message>
     <message>
         <location line="+36"/>
-        <source>XLR:</source>
+        <source>XCRC:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>zXLR:</source>
+        <source>zXCRC:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current percentage of zXLR.
+        <source>Current percentage of zXCRC.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2472,7 +2472,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked XLR or Masternode collaterals. These are excluded from zXLR minting.</source>
+        <source>Locked XCRC or Masternode collaterals. These are excluded from zXCRC minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2481,7 +2481,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000?000?00 XLR</source>
+        <source>0.000?000?00 XCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2492,7 +2492,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked XLRs. These can be used for zXLR minting.</source>
+        <source>Unlocked XLRs. These can be used for zXCRC minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2509,7 +2509,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+14"/>
         <location line="+104"/>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zXLR are spendable.</source>
+These zXCRC are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2520,7 +2520,7 @@ These zXLR are spendable.</source>
     <message>
         <location line="+23"/>
         <location line="+35"/>
-        <source>All available zXLR, unconfirmed and immature zXLR included.</source>
+        <source>All available zXCRC, unconfirmed and immature zXCRC included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2550,7 +2550,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+93"/>
-        <source>Current percentage of zXLR.
+        <source>Current percentage of zXCRC.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2716,12 +2716,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
-        <source>XLR which were anonymized via Zerocin Protocol</source>
+        <source>XCRC which were anonymized via Zerocin Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>ZeroCRyptoCrowd (zXLR)</source>
+        <source>ZeroCRyptoCrowd (zXCRC)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2737,7 +2737,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="+52"/>
         <location line="+46"/>
-        <source>Enter an amount of XLR to convert to zXLR</source>
+        <source>Enter an amount of XCRC to convert to zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2756,7 +2756,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-349"/>
         <location line="+629"/>
-        <source>zXLR</source>
+        <source>zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2771,7 +2771,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+13"/>
-        <source>0.000?000?00 XLR</source>
+        <source>0.000?000?00 XCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2816,12 +2816,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+45"/>
-        <source>zXLR Control</source>
+        <source>zXCRC Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zXLR Selected:</source>
+        <source>zXCRC Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2847,7 +2847,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zXLR for spending</source>
+        <source>Available (mature and spendable) zXCRC for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2857,15 +2857,15 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zXLR for spending
+        <source>Available (mature and spendable) zXCRC for spending
 
-zXLR are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
+zXCRC are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+417"/>
-        <source>0 zXLR</source>
+        <source>0 zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2956,7 +2956,7 @@ zXLR are mature when they have more than 20 confirmations AND more than 3 mints 
     <message>
         <location line="+62"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zXLR</source>
+        <source>Total Balance including unconfirmed and immature zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3192,7 +3192,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+0"/>
-        <source> zXLR in </source>
+        <source> zXCRC in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3304,7 +3304,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+15"/>
-        <source>zXLR Spend #: </source>
+        <source>zXCRC Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3334,7 +3334,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>zXLR Mint</source>
+        <source>zXCRC Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4188,7 +4188,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 XLR</source>
+        <source>0 XCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4324,7 +4324,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized XLR</source>
+        <source>Anonymized XCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5270,27 +5270,27 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted XLR to zXLR</source>
+        <source>Converted XCRC to zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zXLR</source>
+        <source>Spent zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received XLR from zXLR</source>
+        <source>Received XCRC from zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zXLR from zXLR Spend</source>
+        <source>Minted Change as zXCRC from zXCRC Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zXLR to XLR</source>
+        <source>Converted zXCRC to XCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5300,7 +5300,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+22"/>
-        <source>zXLR Accumulator</source>
+        <source>zXCRC Accumulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5439,7 +5439,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Received XLR from zXLR</source>
+        <source>Received XCRC from zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5454,7 +5454,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Zerocoin Spend, Change in zXLR</source>
+        <source>Zerocoin Spend, Change in zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5611,7 +5611,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 XLR.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 XCRC.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5664,10 +5664,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZXCRCControlDialog</name>
     <message>
-        <location filename="../forms/zxlrcontroldialog.ui" line="+20"/>
-        <source>Select zXLR to Spend</source>
+        <location filename="../forms/zxcrccontroldialog.ui" line="+20"/>
+        <source>Select zXCRC to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5683,7 +5683,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-7"/>
-        <source>zXLR</source>
+        <source>zXCRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5811,12 +5811,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in XCRC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in XCRC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5966,12 +5966,12 @@ for example: alertnotify=echo %%s | mail -s &quot;CRyptoCrowd Alert&quot; admin@
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLR.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XCRC.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 XLR.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 XCRC.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6351,7 +6351,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CRyptoCrowd Alert&quot; admin@
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in XLR/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in XCRC/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6538,7 +6538,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CRyptoCrowd Alert&quot; admin@
     </message>
     <message>
         <location line="+44"/>
-        <source>Enable automatic wallet backups triggered after each zXLR minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zXCRC minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

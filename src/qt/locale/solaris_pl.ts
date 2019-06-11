@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE XLR!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XCRC&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE XCRC!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -2027,7 +2027,7 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations </tr
     </message>
     </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZXCRCControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

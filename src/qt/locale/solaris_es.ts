@@ -184,8 +184,8 @@
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS XLR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XCRC&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS XCRC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Privacidad</translation>
     </message>
     <message>
-        <source>Privacy Action for zXLR and Obfuscation</source>
-        <translation>Privacidad con zXLR y Ofuscación</translation>
+        <source>Privacy Action for zXCRC and Obfuscation</source>
+        <translation>Privacidad con zXCRC y Ofuscación</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1548,32 +1548,32 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 XLR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 XCRC</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 XCRC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 XLR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 XCRC</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 XCRC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 XLR para anonimizar 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 XCRC to anonymize 10000 XCRC</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 XCRC para anonimizar 10000 XCRC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 XLR para anonimizar 10000 XLR.</translation>
+        <source>This option is moderately fast and will cost about 0.05 XCRC to anonymize 10000 XCRC</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 XCRC para anonimizar 10000 XCRC.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
-        <translation>0.1 XLR por 10000 XLR que anonimizas.</translation>
+        <source>0.1 XCRC per 10000 XCRC you anonymize.</source>
+        <translation>0.1 XCRC por 10000 XCRC que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1716,20 +1716,20 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLR which get automatically converted to zXLR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de XLRs entrantes que serán automáticamente convertidos a zXLR a través del Protocolo Zerocoin (mín: 10%)</translation>
+        <source>Percentage of incoming XCRC which get automatically converted to zXCRC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Porcentaje de XLRs entrantes que serán automáticamente convertidos a zXCRC a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLR</source>
-        <translation>Porcentaje de zXLR autogenerados</translation>
+        <source>Percentage of autominted zXCRC</source>
+        <translation>Porcentaje de zXCRC autogenerados</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough XLR for this denomination is available</source>
-        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes XLR disponibles para este tamaño de billete</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough XCRC for this denomination is available</source>
+        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes XCRC disponibles para este tamaño de billete</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLR Denomination</source>
-        <translation>Tamaño de billete zXLR preferido en la creación automática de dinero</translation>
+        <source>Preferred Automint zXCRC Denomination</source>
+        <translation>Tamaño de billete zXCRC preferido en la creación automática de dinero</translation>
     </message>
     <message>
         <source>Connect to the CRyptoCrowd network through a SOCKS5 proxy.</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>XLR Balances</source>
-        <translation>Balances XLR</translation>
+        <source>XCRC Balances</source>
+        <translation>Balances XCRC</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1931,12 +1931,12 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Balances Combinados (incluyendo monedas inmaduras)</translation>
     </message>
     <message>
-        <source>XLR:</source>
-        <translation>XLR:</translation>
+        <source>XCRC:</source>
+        <translation>XCRC:</translation>
     </message>
     <message>
-        <source>zXLR:</source>
-        <translation>zXLR:</translation>
+        <source>zXCRC:</source>
+        <translation>zXCRC:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2064,12 +2064,12 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>XLR which were anonymized via Zerocin Protocol</source>
-        <translation>XLR que fueron anonimizados mediante Protocolo Zerocoin</translation>
+        <source>XCRC which were anonymized via Zerocin Protocol</source>
+        <translation>XCRC que fueron anonimizados mediante Protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>ZeroCRyptoCrowd (zXLR)</source>
-        <translation>ZeroCRyptoCrowd (zXLR)</translation>
+        <source>ZeroCRyptoCrowd (zXCRC)</source>
+        <translation>ZeroCRyptoCrowd (zXCRC)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2080,8 +2080,8 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red CRyptoCrowd después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
-        <source>Enter an amount of XLR to convert to zXLR</source>
-        <translation>Introduzca la cantidad de XLR que desea convertir a zXLR</translation>
+        <source>Enter an amount of XCRC to convert to zXCRC</source>
+        <translation>Introduzca la cantidad de XCRC que desea convertir a zXCRC</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2092,16 +2092,16 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zXCRC</source>
+        <translation>zXCRC</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Disponible para Creación de moneda:</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLR</source>
-        <translation>0.000 000 00 XLR</translation>
+        <source>0.000 000 00 XCRC</source>
+        <translation>0.000 000 00 XCRC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2136,12 +2136,12 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Estado y/o Mensajes de la última Acción de Creación de moneda.</translation>
     </message>
     <message>
-        <source>zXLR Control</source>
-        <translation>Control zXLR</translation>
+        <source>zXCRC Control</source>
+        <translation>Control zXCRC</translation>
     </message>
     <message>
-        <source>zXLR Selected:</source>
-        <translation>zXLR Seleccionados:</translation>
+        <source>zXCRC Selected:</source>
+        <translation>zXCRC Seleccionados:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Balance disponible:</translation>
     </message>
     <message>
-        <source>0 zXLR</source>
-        <translation>0 zXLR</translation>
+        <source>0 zXCRC</source>
+        <translation>0 zXCRC</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2400,8 +2400,8 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Monedas creadas correctamente</translation>
     </message>
     <message>
-        <source> zXLR in </source>
-        <translation>zXLR en</translation>
+        <source> zXCRC in </source>
+        <translation>zXCRC en</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2478,8 +2478,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gastar Zerocoin falló con estado =</translation>
     </message>
     <message>
-        <source>zXLR Spend #: </source>
-        <translation>Gastar zXLR #:</translation>
+        <source>zXCRC Spend #: </source>
+        <translation>Gastar zXCRC #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2502,8 +2502,8 @@ Por favor tenga paciencia...</translation>
         <translation>dirección:</translation>
     </message>
     <message>
-        <source>zXLR Mint</source>
-        <translation>Creación de zXLR</translation>
+        <source>zXCRC Mint</source>
+        <translation>Creación de zXCRC</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3131,8 +3131,8 @@ Por favor tenga paciencia...</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 XLR</source>
-        <translation>0 XLR</translation>
+        <source>0 XCRC</source>
+        <translation>0 XCRC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3239,8 +3239,8 @@ Por favor tenga paciencia...</translation>
         <translation>Añadir Destinata&amp;rio</translation>
     </message>
     <message>
-        <source>Anonymized XLR</source>
-        <translation>XLR anonimizados</translation>
+        <source>Anonymized XCRC</source>
+        <translation>XCRC anonimizados</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3959,32 +3959,32 @@ Por favor tenga paciencia...</translation>
         <translation>Ofuscado</translation>
     </message>
     <message>
-        <source>Converted XLR to zXLR</source>
-        <translation>XLR convertidos a zXLR</translation>
+        <source>Converted XCRC to zXCRC</source>
+        <translation>XCRC convertidos a zXCRC</translation>
     </message>
     <message>
-        <source>Spent zXLR</source>
-        <translation>zXLR Gastados</translation>
+        <source>Spent zXCRC</source>
+        <translation>zXCRC Gastados</translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>XLR recibidos desde zXLR</translation>
+        <source>Received XCRC from zXCRC</source>
+        <translation>XCRC recibidos desde zXCRC</translation>
     </message>
     <message>
-        <source>Minted Change as zXLR from zXLR Spend</source>
-        <translation>Cambio Creado en zXLR por un Gasto zXLR</translation>
+        <source>Minted Change as zXCRC from zXCRC Spend</source>
+        <translation>Cambio Creado en zXCRC por un Gasto zXCRC</translation>
     </message>
     <message>
-        <source>Converted zXLR to XLR</source>
-        <translation>zXLR convertidos en XLR</translation>
+        <source>Converted zXCRC to XCRC</source>
+        <translation>zXCRC convertidos en XCRC</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>sólo-lectura</translation>
     </message>
     <message>
-        <source>zXLR Accumulator</source>
-        <translation>Acumulador zXLR</translation>
+        <source>zXCRC Accumulator</source>
+        <translation>Acumulador zXCRC</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4094,8 +4094,8 @@ Por favor tenga paciencia...</translation>
         <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>XLR recibidos desde zXLR</translation>
+        <source>Received XCRC from zXCRC</source>
+        <translation>XCRC recibidos desde zXCRC</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4106,8 +4106,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gasto de Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zXLR</source>
-        <translation>Gasto de Zerocoin, Cambio en zXLR</translation>
+        <source>Zerocoin Spend, Change in zXCRC</source>
+        <translation>Gasto de Zerocoin, Cambio en zXCRC</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4231,8 +4231,8 @@ Por favor tenga paciencia...</translation>
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XLR.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 XLR.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XCRC.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 XCRC.</translation>
     </message>
 </context>
 <context>
@@ -4275,10 +4275,10 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZXCRCControlDialog</name>
     <message>
-        <source>Select zXLR to Spend</source>
-        <translation>Seleccione zXLR a Gastar</translation>
+        <source>Select zXCRC to Spend</source>
+        <translation>Seleccione zXCRC a Gastar</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4289,8 +4289,8 @@ Por favor tenga paciencia...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zXCRC</source>
+        <translation>zXCRC</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4392,12 +4392,12 @@ Por favor tenga paciencia...</translation>
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en XLR/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in XCRC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en XCRC/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en XLR/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in XCRC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en XCRC/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4528,12 +4528,12 @@ por ejemplo: alertnotify=echo %%s | mail -s "CRyptoCrowd Alert" admin@foo.com
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLR.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 XLR.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XCRC.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 XCRC.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 XLR.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 XLR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 XCRC.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 XCRC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4836,8 +4836,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "CRyptoCrowd Alert" admin@foo.com
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in XLR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en XLR/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in XCRC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en XCRC/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

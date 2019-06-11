@@ -184,8 +184,8 @@
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ XLR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XCRC&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ XCRC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Поверителност</translation>
     </message>
     <message>
-        <source>Privacy Action for zXLR and Obfuscation</source>
-        <translation>Поверителни действия за zXLR и Обфускация</translation>
+        <source>Privacy Action for zXCRC and Obfuscation</source>
+        <translation>Поверителни действия за zXCRC и Обфускация</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1548,32 +1548,32 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 XLR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 XCRC</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 XCRC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 XLR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 XCRC</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 XCRC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 XLR за да скриете 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 XCRC to anonymize 10000 XCRC</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 XCRC за да скриете 10000 XCRC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 XLR за да скриете 10000 XLR</translation>
+        <source>This option is moderately fast and will cost about 0.05 XCRC to anonymize 10000 XCRC</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 XCRC за да скриете 10000 XCRC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на XLR. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на XCRC. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
-        <translation>0.1 XLR за 10000 скрити XLR</translation>
+        <source>0.1 XCRC per 10000 XCRC you anonymize.</source>
+        <translation>0.1 XCRC за 10000 скрити XCRC</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1712,20 +1712,20 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</sou
 https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLR which get automatically converted to zXLR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите XLR, който автоматично да се конвертира в zXLR посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming XCRC which get automatically converted to zXCRC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите XCRC, който автоматично да се конвертира в zXCRC посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLR</source>
-        <translation>Процент автоматично сечени zXLR</translation>
+        <source>Percentage of autominted zXCRC</source>
+        <translation>Процент автоматично сечени zXCRC</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough XLR for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zXLR докато не се съберат достатъчно XLR за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough XCRC for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zXCRC докато не се съберат достатъчно XCRC за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLR Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zXLR</translation>
+        <source>Preferred Automint zXCRC Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zXCRC</translation>
     </message>
     <message>
         <source>Connect to the CRyptoCrowd network through a SOCKS5 proxy.</source>
@@ -1859,8 +1859,8 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>От</translation>
     </message>
     <message>
-        <source>XLR Balances</source>
-        <translation>XLR Баланс</translation>
+        <source>XCRC Balances</source>
+        <translation>XCRC Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1927,12 +1927,12 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Комбиниран общ баланс (само озрелите монети)</translation>
     </message>
     <message>
-        <source>XLR:</source>
-        <translation>XLR:</translation>
+        <source>XCRC:</source>
+        <translation>XCRC:</translation>
     </message>
     <message>
-        <source>zXLR:</source>
-        <translation>zXLR:</translation>
+        <source>zXCRC:</source>
+        <translation>zXCRC:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2060,12 +2060,12 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>XLR which were anonymized via Zerocin Protocol</source>
-        <translation>XLR скрити посредством Зерокойн протокола</translation>
+        <source>XCRC which were anonymized via Zerocin Protocol</source>
+        <translation>XCRC скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>ZeroCRyptoCrowd (zXLR)</source>
-        <translation>ZeroCRyptoCrowd (zXLR)</translation>
+        <source>ZeroCRyptoCrowd (zXCRC)</source>
+        <translation>ZeroCRyptoCrowd (zXCRC)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2076,8 +2076,8 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с CRyptoCrowd мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
-        <source>Enter an amount of XLR to convert to zXLR</source>
-        <translation>Въведете колко XLR  да се конвертират в zXLR</translation>
+        <source>Enter an amount of XCRC to convert to zXCRC</source>
+        <translation>Въведете колко XCRC  да се конвертират в zXCRC</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2088,16 +2088,16 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zXCRC</source>
+        <translation>zXCRC</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLR</source>
-        <translation>0.000 000 00 XLR</translation>
+        <source>0.000 000 00 XCRC</source>
+        <translation>0.000 000 00 XCRC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2132,12 +2132,12 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Състояния и/или Съобщения от последните действия по сечене на монети.</translation>
     </message>
     <message>
-        <source>zXLR Control</source>
-        <translation>zXLR Контрол</translation>
+        <source>zXCRC Control</source>
+        <translation>zXCRC Контрол</translation>
     </message>
     <message>
-        <source>zXLR Selected:</source>
-        <translation>Избрани zXLR:</translation>
+        <source>zXCRC Selected:</source>
+        <translation>Избрани zXCRC:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2156,8 +2156,8 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zXLR</source>
-        <translation>0 zXLR</translation>
+        <source>0 zXCRC</source>
+        <translation>0 zXCRC</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zXLR от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zXCRC от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2396,8 +2396,8 @@ https://www.transifex.com/cryptocrowd-xcrc/cryptocrowd-project-translations</tra
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zXLR in </source>
-        <translation>zXLR в</translation>
+        <source> zXCRC in </source>
+        <translation>zXCRC в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2474,8 +2474,8 @@ Please be patient...</source>
         <translation>Харченето на Zerocoin се провали със статус =</translation>
     </message>
     <message>
-        <source>zXLR Spend #: </source>
-        <translation>zXLR Похарчени #:</translation>
+        <source>zXCRC Spend #: </source>
+        <translation>zXCRC Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2498,8 +2498,8 @@ Please be patient...</source>
         <translation>адрес:</translation>
     </message>
     <message>
-        <source>zXLR Mint</source>
-        <translation>Сечене на zXLR</translation>
+        <source>zXCRC Mint</source>
+        <translation>Сечене на zXCRC</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3127,8 +3127,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 XLR</source>
-        <translation>0 XLR</translation>
+        <source>0 XCRC</source>
+        <translation>0 XCRC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3235,8 +3235,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized XLR</source>
-        <translation>Анонимизиран XLR</translation>
+        <source>Anonymized XCRC</source>
+        <translation>Анонимизиран XCRC</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3296,7 +3296,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Warning: Invalid CRyptoCrowd address</source>
-        <translation>Предупреждение: Невалиден XLR адрес</translation>
+        <translation>Предупреждение: Невалиден XCRC адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3955,32 +3955,32 @@ Please be patient...</source>
         <translation>Обфускирани</translation>
     </message>
     <message>
-        <source>Converted XLR to zXLR</source>
-        <translation>Конвертиран XLR във zXLR</translation>
+        <source>Converted XCRC to zXCRC</source>
+        <translation>Конвертиран XCRC във zXCRC</translation>
     </message>
     <message>
-        <source>Spent zXLR</source>
-        <translation>Похарчени zXLR</translation>
+        <source>Spent zXCRC</source>
+        <translation>Похарчени zXCRC</translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>Получен XLR от zXLR</translation>
+        <source>Received XCRC from zXCRC</source>
+        <translation>Получен XCRC от zXCRC</translation>
     </message>
     <message>
-        <source>Minted Change as zXLR from zXLR Spend</source>
-        <translation>Исечено ресто като zXLR от похарчените zXLR</translation>
+        <source>Minted Change as zXCRC from zXCRC Spend</source>
+        <translation>Исечено ресто като zXCRC от похарчените zXCRC</translation>
     </message>
     <message>
-        <source>Converted zXLR to XLR</source>
-        <translation>Конвертирани zXLR в XLR</translation>
+        <source>Converted zXCRC to XCRC</source>
+        <translation>Конвертирани zXCRC в XCRC</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>наблюдение само</translation>
     </message>
     <message>
-        <source>zXLR Accumulator</source>
-        <translation>zXLR Акумулатор</translation>
+        <source>zXCRC Accumulator</source>
+        <translation>zXCRC Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4086,8 +4086,8 @@ Please be patient...</source>
         <translation>Мастърноуд възнаграждение</translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>Получен XLR от zXLR</translation>
+        <source>Received XCRC from zXCRC</source>
+        <translation>Получен XCRC от zXCRC</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4098,8 +4098,8 @@ Please be patient...</source>
         <translation>Харчене на Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zXLR</source>
-        <translation>Харчене на Zerocoin, Ресто в zXLR</translation>
+        <source>Zerocoin Spend, Change in zXCRC</source>
+        <translation>Харчене на Zerocoin, Ресто в zXCRC</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4215,8 +4215,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XLR.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 XLR.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XCRC.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 XCRC.</translation>
     </message>
 </context>
 <context>
@@ -4259,10 +4259,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZXCRCControlDialog</name>
     <message>
-        <source>Select zXLR to Spend</source>
-        <translation>Изберете zXLR за Изпращане</translation>
+        <source>Select zXCRC to Spend</source>
+        <translation>Изберете zXCRC за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4273,8 +4273,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zXCRC</source>
+        <translation>zXCRC</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4344,12 +4344,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в XLR/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in XCRC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в XCRC/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в XLR/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in XCRC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в XCRC/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

@@ -184,8 +184,8 @@
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA XLR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XCRC&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA XCRC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -903,7 +903,7 @@
     </message>
     </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZXCRCControlDialog</name>
     </context>
 <context>
     <name>cryptocrowd-core</name>

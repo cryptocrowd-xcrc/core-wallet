@@ -535,8 +535,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 XLR</source>
-        <translation>0 XLR</translation>
+        <source>0 XCRC</source>
+        <translation>0 XCRC</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -783,7 +783,7 @@
     </message>
     </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZXCRCControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

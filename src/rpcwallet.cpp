@@ -1888,7 +1888,7 @@ Value settxfee(const Array& params, bool fHelp)
             "settxfee amount\n"
             "\nSet the transaction fee per kB.\n"
             "\nArguments:\n"
-            "1. amount         (numeric, required) The transaction fee in XLR/kB rounded to the nearest 0.00000001\n"
+            "1. amount         (numeric, required) The transaction fee in XCRC/kB rounded to the nearest 0.00000001\n"
             "\nResult\n"
             "true|false        (boolean) Returns true if successful\n"
             "\nExamples:\n" +
@@ -1912,7 +1912,7 @@ Value getwalletinfo(const Array& params, bool fHelp)
             "\nResult:\n"
             "{\n"
             "  \"walletversion\": xxxxx,     (numeric) the wallet version\n"
-            "  \"balance\": xxxxxxx,         (numeric) the total XLR balance of the wallet\n"
+            "  \"balance\": xxxxxxx,         (numeric) the total XCRC balance of the wallet\n"
             "  \"txcount\": xxxxxxx,         (numeric) the total number of transactions in the wallet\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
@@ -2268,7 +2268,7 @@ Value multisend(const Array& params, bool fHelp)
     string strAddress = params[0].get_str();
     CBitcoinAddress address(strAddress);
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid XLR address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid XCRC address");
     if (boost::lexical_cast<int>(params[1].get_str()) < 0)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid parameter, expected valid percentage");
     if (pwalletMain->IsLocked())
@@ -2401,13 +2401,13 @@ Value mintzerocoin(const Array& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "mintzerocoin <amount>\n"
-            "Usage: Enter an amount of XLR to convert to zXLR"
+            "Usage: Enter an amount of XCRC to convert to zXCRC"
             + HelpRequiringPassphrase());
 
     int64_t nTime = GetTimeMillis();
 
     if(GetAdjustedTime() > GetSporkValue(SPORK_16_ZEROCOIN_MAINTENANCE_MODE))
-        throw JSONRPCError(RPC_WALLET_ERROR, "zXLR is currently disabled due to maintenance.");
+        throw JSONRPCError(RPC_WALLET_ERROR, "zXCRC is currently disabled due to maintenance.");
 
     if (pwalletMain->IsLocked())
         throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
@@ -2441,9 +2441,9 @@ Value spendzerocoin(const Array& params, bool fHelp)
     if (fHelp || params.size() > 5 || params.size() < 4)
         throw runtime_error(
             "spendzerocoin <amount> <mintchange [true|false]> <minimizechange [true|false]>  <securitylevel [1-100]> <address>\n"
-            "Overview: Convert zXLR (zerocoins) into XLR. \n"
+            "Overview: Convert zXCRC (zerocoins) into XCRC. \n"
             "amount: amount to spend\n"
-            "mintchange: if there is left over XLR (change), the wallet can convert it automatically back to zerocoins [true]\n"
+            "mintchange: if there is left over XCRC (change), the wallet can convert it automatically back to zerocoins [true]\n"
             "minimizechange: try to minimize the returning change  [false]\n"
             "security level: the amount of checkpoints to add to the accumulator. A checkpoint contains 10 blocks worth of zerocoinmints."
                     "The more checkpoints that are added, the more untraceable the transaction will be. Use [100] to add the maximum amount"
@@ -2453,14 +2453,14 @@ Value spendzerocoin(const Array& params, bool fHelp)
             + HelpRequiringPassphrase());
 
     if(GetAdjustedTime() > GetSporkValue(SPORK_16_ZEROCOIN_MAINTENANCE_MODE))
-        throw JSONRPCError(RPC_WALLET_ERROR, "zXLR is currently disabled due to maintenance.");
+        throw JSONRPCError(RPC_WALLET_ERROR, "zXCRC is currently disabled due to maintenance.");
 
     int64_t nTimeStart = GetTimeMillis();
     if (pwalletMain->IsLocked())
         throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
 
     CAmount nAmount = AmountFromValue(params[0]);   // Spending amount
-    bool fMintChange = params[1].get_bool();        // Mint change to zXLR
+    bool fMintChange = params[1].get_bool();        // Mint change to zXCRC
     bool fMinimizeChange = params[2].get_bool();    // Minimize change
     int nSecurityLevel = params[3].get_int();       // Security level
 
@@ -2655,7 +2655,7 @@ Value exportzerocoins(const Array& params, bool fHelp)
 
                 "\nArguments:\n"
                 "1. \"include_spent\"        (bool, required) Include mints that have already been spent\n"
-                "2. \"denomination\"         (integer, optional) Export a specific denomination of zXLR\n"
+                "2. \"denomination\"         (integer, optional) Export a specific denomination of zXCRC\n"
 
                 "\nResult\n"
                 "[                   (array of json object)\n"
@@ -2719,7 +2719,7 @@ Value importzerocoins(const Array& params, bool fHelp)
 
                 "\nResult:\n"
                 "\"added\"            (int) the quantity of zerocoin mints that were added\n"
-                "\"value\"            (string) the total zXLR value of zerocoin mints that were added\n"
+                "\"value\"            (string) the total zXCRC value of zerocoin mints that were added\n"
 
                 "\nExamples\n" +
             HelpExampleCli("importzerocoins", "\'[{\"d\":100,\"p\":\"mypubcoin\",\"s\":\"myserial\",\"r\":\"randomness_hex\",\"t\":\"mytxid\",\"h\":104923, \"u\":false},{\"d\":5,...}]\'") +
@@ -2771,7 +2771,7 @@ Value reconsiderzerocoins(const Array& params, bool fHelp)
     if(fHelp || !params.empty())
         throw runtime_error(
             "reconsiderzerocoins\n"
-                "\nCheck archived zXLR list to see if any mints were added to the blockchain.\n"
+                "\nCheck archived zXCRC list to see if any mints were added to the blockchain.\n"
 
                 "\nResult\n"
                 "[                                 (array of json objects)\n"

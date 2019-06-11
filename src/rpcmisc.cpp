@@ -68,15 +68,15 @@ Value getinfo(const Array& params, bool fHelp)
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
             "  \"zXLRsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zXLR denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zXLR denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zXLR denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zXLR denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zXLR denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zXLR denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zXLR denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zXLR denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zXLR denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zXCRC denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zXCRC denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zXCRC denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zXCRC denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zXCRC denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zXCRC denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zXCRC denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zXCRC denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zXCRC denominations\n"
             "  }\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
@@ -109,12 +109,12 @@ Value getinfo(const Array& params, bool fHelp)
     obj.push_back(Pair("difficulty", (double)GetDifficulty()));
     obj.push_back(Pair("testnet", Params().TestnetToBeDeprecatedFieldRPC()));
     obj.push_back(Pair("moneysupply",ValueFromAmount(chainActive.Tip()->nMoneySupply)));
-    Object zxlrObj;
+    Object zxcrcObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zxlrObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zxcrcObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zxlrObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
-    obj.emplace_back(Pair("zXLRsupply", zxlrObj));
+    zxcrcObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
+    obj.emplace_back(Pair("zXLRsupply", zxcrcObj));
     
 #ifdef ENABLE_WALLET
     if (pwalletMain) {
